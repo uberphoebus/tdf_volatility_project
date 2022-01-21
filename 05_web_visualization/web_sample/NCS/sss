@@ -1,0 +1,28 @@
+select name, sum(cnt) as cnt
+from (
+select name, count(1) as cnt from ncs0113 group by name
+union all
+select name, count(1) as cnt from ncs0111 group by name
+union all
+select name, count(1) as cnt from ncs0113 group by name
+union all
+select name, count(1) as cnt from ncs0114 group by name
+union all
+select name, count(1) as cnt from ncs0115 group by name
+union all
+select name, count(1) as cnt from ncs0118 group by name
+union all
+select name, count(1) as cnt from ncs0119 group by name
+union all
+select name, count(1) as cnt from ncs0120 group by name
+union all
+select name, count(1) as cnt from ncs0121 group by name
+union all
+select name, count(1) as cnt from ncs0122 group by name
+union all
+select name, count(1) as cnt from ncs0130 group by name
+union all
+select name, count(1) as cnt from ncs0206 group by name
+)
+group by name
+order by sum(cnt) desc;

@@ -1,0 +1,681 @@
+0,1,2
+Sigma,Psy,TRIX
+Sigma,Psy,MFI
+Sigma,Psy,Disparity60
+Sigma,Psy,VR
+Sigma,Psy,MACD_OSC
+Sigma,Psy,RSI14
+Sigma,Psy,MA20_gra
+Sigma,Psy,Momentum
+Sigma,Psy,RSI signal
+Sigma,Psy,Sonar_sig5
+Sigma,Psy,Fast%D
+Sigma,Psy,MA5_gra
+Sigma,Psy,Volume_OSC
+Sigma,Psy,Disparity20
+Sigma,Psy,CCI
+Sigma,TRIX,MFI
+Sigma,TRIX,Disparity60
+Sigma,TRIX,VR
+Sigma,TRIX,MACD_OSC
+Sigma,TRIX,RSI14
+Sigma,TRIX,MA20_gra
+Sigma,TRIX,Momentum
+Sigma,TRIX,RSI signal
+Sigma,TRIX,Sonar_sig5
+Sigma,TRIX,Fast%D
+Sigma,TRIX,MA5_gra
+Sigma,TRIX,Volume_OSC
+Sigma,TRIX,Disparity20
+Sigma,TRIX,CCI
+Sigma,MFI,Disparity60
+Sigma,MFI,VR
+Sigma,MFI,MACD_OSC
+Sigma,MFI,RSI14
+Sigma,MFI,MA20_gra
+Sigma,MFI,Momentum
+Sigma,MFI,RSI signal
+Sigma,MFI,Sonar_sig5
+Sigma,MFI,Fast%D
+Sigma,MFI,MA5_gra
+Sigma,MFI,Volume_OSC
+Sigma,MFI,Disparity20
+Sigma,MFI,CCI
+Sigma,Disparity60,VR
+Sigma,Disparity60,MACD_OSC
+Sigma,Disparity60,RSI14
+Sigma,Disparity60,MA20_gra
+Sigma,Disparity60,Momentum
+Sigma,Disparity60,RSI signal
+Sigma,Disparity60,Sonar_sig5
+Sigma,Disparity60,Fast%D
+Sigma,Disparity60,MA5_gra
+Sigma,Disparity60,Volume_OSC
+Sigma,Disparity60,Disparity20
+Sigma,Disparity60,CCI
+Sigma,VR,MACD_OSC
+Sigma,VR,RSI14
+Sigma,VR,MA20_gra
+Sigma,VR,Momentum
+Sigma,VR,RSI signal
+Sigma,VR,Sonar_sig5
+Sigma,VR,Fast%D
+Sigma,VR,MA5_gra
+Sigma,VR,Volume_OSC
+Sigma,VR,Disparity20
+Sigma,VR,CCI
+Sigma,MACD_OSC,RSI14
+Sigma,MACD_OSC,MA20_gra
+Sigma,MACD_OSC,Momentum
+Sigma,MACD_OSC,RSI signal
+Sigma,MACD_OSC,Sonar_sig5
+Sigma,MACD_OSC,Fast%D
+Sigma,MACD_OSC,MA5_gra
+Sigma,MACD_OSC,Volume_OSC
+Sigma,MACD_OSC,Disparity20
+Sigma,MACD_OSC,CCI
+Sigma,RSI14,MA20_gra
+Sigma,RSI14,Momentum
+Sigma,RSI14,RSI signal
+Sigma,RSI14,Sonar_sig5
+Sigma,RSI14,Fast%D
+Sigma,RSI14,MA5_gra
+Sigma,RSI14,Volume_OSC
+Sigma,RSI14,Disparity20
+Sigma,RSI14,CCI
+Sigma,MA20_gra,Momentum
+Sigma,MA20_gra,RSI signal
+Sigma,MA20_gra,Sonar_sig5
+Sigma,MA20_gra,Fast%D
+Sigma,MA20_gra,MA5_gra
+Sigma,MA20_gra,Volume_OSC
+Sigma,MA20_gra,Disparity20
+Sigma,MA20_gra,CCI
+Sigma,Momentum,RSI signal
+Sigma,Momentum,Sonar_sig5
+Sigma,Momentum,Fast%D
+Sigma,Momentum,MA5_gra
+Sigma,Momentum,Volume_OSC
+Sigma,Momentum,Disparity20
+Sigma,Momentum,CCI
+Sigma,RSI signal,Sonar_sig5
+Sigma,RSI signal,Fast%D
+Sigma,RSI signal,MA5_gra
+Sigma,RSI signal,Volume_OSC
+Sigma,RSI signal,Disparity20
+Sigma,RSI signal,CCI
+Sigma,Sonar_sig5,Fast%D
+Sigma,Sonar_sig5,MA5_gra
+Sigma,Sonar_sig5,Volume_OSC
+Sigma,Sonar_sig5,Disparity20
+Sigma,Sonar_sig5,CCI
+Sigma,Fast%D,MA5_gra
+Sigma,Fast%D,Volume_OSC
+Sigma,Fast%D,Disparity20
+Sigma,Fast%D,CCI
+Sigma,MA5_gra,Volume_OSC
+Sigma,MA5_gra,Disparity20
+Sigma,MA5_gra,CCI
+Sigma,Volume_OSC,Disparity20
+Sigma,Volume_OSC,CCI
+Sigma,Disparity20,CCI
+Psy,TRIX,MFI
+Psy,TRIX,Disparity60
+Psy,TRIX,VR
+Psy,TRIX,MACD_OSC
+Psy,TRIX,RSI14
+Psy,TRIX,MA20_gra
+Psy,TRIX,Momentum
+Psy,TRIX,RSI signal
+Psy,TRIX,Sonar_sig5
+Psy,TRIX,Fast%D
+Psy,TRIX,MA5_gra
+Psy,TRIX,Volume_OSC
+Psy,TRIX,Disparity20
+Psy,TRIX,CCI
+Psy,MFI,Disparity60
+Psy,MFI,VR
+Psy,MFI,MACD_OSC
+Psy,MFI,RSI14
+Psy,MFI,MA20_gra
+Psy,MFI,Momentum
+Psy,MFI,RSI signal
+Psy,MFI,Sonar_sig5
+Psy,MFI,Fast%D
+Psy,MFI,MA5_gra
+Psy,MFI,Volume_OSC
+Psy,MFI,Disparity20
+Psy,MFI,CCI
+Psy,Disparity60,VR
+Psy,Disparity60,MACD_OSC
+Psy,Disparity60,RSI14
+Psy,Disparity60,MA20_gra
+Psy,Disparity60,Momentum
+Psy,Disparity60,RSI signal
+Psy,Disparity60,Sonar_sig5
+Psy,Disparity60,Fast%D
+Psy,Disparity60,MA5_gra
+Psy,Disparity60,Volume_OSC
+Psy,Disparity60,Disparity20
+Psy,Disparity60,CCI
+Psy,VR,MACD_OSC
+Psy,VR,RSI14
+Psy,VR,MA20_gra
+Psy,VR,Momentum
+Psy,VR,RSI signal
+Psy,VR,Sonar_sig5
+Psy,VR,Fast%D
+Psy,VR,MA5_gra
+Psy,VR,Volume_OSC
+Psy,VR,Disparity20
+Psy,VR,CCI
+Psy,MACD_OSC,RSI14
+Psy,MACD_OSC,MA20_gra
+Psy,MACD_OSC,Momentum
+Psy,MACD_OSC,RSI signal
+Psy,MACD_OSC,Sonar_sig5
+Psy,MACD_OSC,Fast%D
+Psy,MACD_OSC,MA5_gra
+Psy,MACD_OSC,Volume_OSC
+Psy,MACD_OSC,Disparity20
+Psy,MACD_OSC,CCI
+Psy,RSI14,MA20_gra
+Psy,RSI14,Momentum
+Psy,RSI14,RSI signal
+Psy,RSI14,Sonar_sig5
+Psy,RSI14,Fast%D
+Psy,RSI14,MA5_gra
+Psy,RSI14,Volume_OSC
+Psy,RSI14,Disparity20
+Psy,RSI14,CCI
+Psy,MA20_gra,Momentum
+Psy,MA20_gra,RSI signal
+Psy,MA20_gra,Sonar_sig5
+Psy,MA20_gra,Fast%D
+Psy,MA20_gra,MA5_gra
+Psy,MA20_gra,Volume_OSC
+Psy,MA20_gra,Disparity20
+Psy,MA20_gra,CCI
+Psy,Momentum,RSI signal
+Psy,Momentum,Sonar_sig5
+Psy,Momentum,Fast%D
+Psy,Momentum,MA5_gra
+Psy,Momentum,Volume_OSC
+Psy,Momentum,Disparity20
+Psy,Momentum,CCI
+Psy,RSI signal,Sonar_sig5
+Psy,RSI signal,Fast%D
+Psy,RSI signal,MA5_gra
+Psy,RSI signal,Volume_OSC
+Psy,RSI signal,Disparity20
+Psy,RSI signal,CCI
+Psy,Sonar_sig5,Fast%D
+Psy,Sonar_sig5,MA5_gra
+Psy,Sonar_sig5,Volume_OSC
+Psy,Sonar_sig5,Disparity20
+Psy,Sonar_sig5,CCI
+Psy,Fast%D,MA5_gra
+Psy,Fast%D,Volume_OSC
+Psy,Fast%D,Disparity20
+Psy,Fast%D,CCI
+Psy,MA5_gra,Volume_OSC
+Psy,MA5_gra,Disparity20
+Psy,MA5_gra,CCI
+Psy,Volume_OSC,Disparity20
+Psy,Volume_OSC,CCI
+Psy,Disparity20,CCI
+TRIX,MFI,Disparity60
+TRIX,MFI,VR
+TRIX,MFI,MACD_OSC
+TRIX,MFI,RSI14
+TRIX,MFI,MA20_gra
+TRIX,MFI,Momentum
+TRIX,MFI,RSI signal
+TRIX,MFI,Sonar_sig5
+TRIX,MFI,Fast%D
+TRIX,MFI,MA5_gra
+TRIX,MFI,Volume_OSC
+TRIX,MFI,Disparity20
+TRIX,MFI,CCI
+TRIX,Disparity60,VR
+TRIX,Disparity60,MACD_OSC
+TRIX,Disparity60,RSI14
+TRIX,Disparity60,MA20_gra
+TRIX,Disparity60,Momentum
+TRIX,Disparity60,RSI signal
+TRIX,Disparity60,Sonar_sig5
+TRIX,Disparity60,Fast%D
+TRIX,Disparity60,MA5_gra
+TRIX,Disparity60,Volume_OSC
+TRIX,Disparity60,Disparity20
+TRIX,Disparity60,CCI
+TRIX,VR,MACD_OSC
+TRIX,VR,RSI14
+TRIX,VR,MA20_gra
+TRIX,VR,Momentum
+TRIX,VR,RSI signal
+TRIX,VR,Sonar_sig5
+TRIX,VR,Fast%D
+TRIX,VR,MA5_gra
+TRIX,VR,Volume_OSC
+TRIX,VR,Disparity20
+TRIX,VR,CCI
+TRIX,MACD_OSC,RSI14
+TRIX,MACD_OSC,MA20_gra
+TRIX,MACD_OSC,Momentum
+TRIX,MACD_OSC,RSI signal
+TRIX,MACD_OSC,Sonar_sig5
+TRIX,MACD_OSC,Fast%D
+TRIX,MACD_OSC,MA5_gra
+TRIX,MACD_OSC,Volume_OSC
+TRIX,MACD_OSC,Disparity20
+TRIX,MACD_OSC,CCI
+TRIX,RSI14,MA20_gra
+TRIX,RSI14,Momentum
+TRIX,RSI14,RSI signal
+TRIX,RSI14,Sonar_sig5
+TRIX,RSI14,Fast%D
+TRIX,RSI14,MA5_gra
+TRIX,RSI14,Volume_OSC
+TRIX,RSI14,Disparity20
+TRIX,RSI14,CCI
+TRIX,MA20_gra,Momentum
+TRIX,MA20_gra,RSI signal
+TRIX,MA20_gra,Sonar_sig5
+TRIX,MA20_gra,Fast%D
+TRIX,MA20_gra,MA5_gra
+TRIX,MA20_gra,Volume_OSC
+TRIX,MA20_gra,Disparity20
+TRIX,MA20_gra,CCI
+TRIX,Momentum,RSI signal
+TRIX,Momentum,Sonar_sig5
+TRIX,Momentum,Fast%D
+TRIX,Momentum,MA5_gra
+TRIX,Momentum,Volume_OSC
+TRIX,Momentum,Disparity20
+TRIX,Momentum,CCI
+TRIX,RSI signal,Sonar_sig5
+TRIX,RSI signal,Fast%D
+TRIX,RSI signal,MA5_gra
+TRIX,RSI signal,Volume_OSC
+TRIX,RSI signal,Disparity20
+TRIX,RSI signal,CCI
+TRIX,Sonar_sig5,Fast%D
+TRIX,Sonar_sig5,MA5_gra
+TRIX,Sonar_sig5,Volume_OSC
+TRIX,Sonar_sig5,Disparity20
+TRIX,Sonar_sig5,CCI
+TRIX,Fast%D,MA5_gra
+TRIX,Fast%D,Volume_OSC
+TRIX,Fast%D,Disparity20
+TRIX,Fast%D,CCI
+TRIX,MA5_gra,Volume_OSC
+TRIX,MA5_gra,Disparity20
+TRIX,MA5_gra,CCI
+TRIX,Volume_OSC,Disparity20
+TRIX,Volume_OSC,CCI
+TRIX,Disparity20,CCI
+MFI,Disparity60,VR
+MFI,Disparity60,MACD_OSC
+MFI,Disparity60,RSI14
+MFI,Disparity60,MA20_gra
+MFI,Disparity60,Momentum
+MFI,Disparity60,RSI signal
+MFI,Disparity60,Sonar_sig5
+MFI,Disparity60,Fast%D
+MFI,Disparity60,MA5_gra
+MFI,Disparity60,Volume_OSC
+MFI,Disparity60,Disparity20
+MFI,Disparity60,CCI
+MFI,VR,MACD_OSC
+MFI,VR,RSI14
+MFI,VR,MA20_gra
+MFI,VR,Momentum
+MFI,VR,RSI signal
+MFI,VR,Sonar_sig5
+MFI,VR,Fast%D
+MFI,VR,MA5_gra
+MFI,VR,Volume_OSC
+MFI,VR,Disparity20
+MFI,VR,CCI
+MFI,MACD_OSC,RSI14
+MFI,MACD_OSC,MA20_gra
+MFI,MACD_OSC,Momentum
+MFI,MACD_OSC,RSI signal
+MFI,MACD_OSC,Sonar_sig5
+MFI,MACD_OSC,Fast%D
+MFI,MACD_OSC,MA5_gra
+MFI,MACD_OSC,Volume_OSC
+MFI,MACD_OSC,Disparity20
+MFI,MACD_OSC,CCI
+MFI,RSI14,MA20_gra
+MFI,RSI14,Momentum
+MFI,RSI14,RSI signal
+MFI,RSI14,Sonar_sig5
+MFI,RSI14,Fast%D
+MFI,RSI14,MA5_gra
+MFI,RSI14,Volume_OSC
+MFI,RSI14,Disparity20
+MFI,RSI14,CCI
+MFI,MA20_gra,Momentum
+MFI,MA20_gra,RSI signal
+MFI,MA20_gra,Sonar_sig5
+MFI,MA20_gra,Fast%D
+MFI,MA20_gra,MA5_gra
+MFI,MA20_gra,Volume_OSC
+MFI,MA20_gra,Disparity20
+MFI,MA20_gra,CCI
+MFI,Momentum,RSI signal
+MFI,Momentum,Sonar_sig5
+MFI,Momentum,Fast%D
+MFI,Momentum,MA5_gra
+MFI,Momentum,Volume_OSC
+MFI,Momentum,Disparity20
+MFI,Momentum,CCI
+MFI,RSI signal,Sonar_sig5
+MFI,RSI signal,Fast%D
+MFI,RSI signal,MA5_gra
+MFI,RSI signal,Volume_OSC
+MFI,RSI signal,Disparity20
+MFI,RSI signal,CCI
+MFI,Sonar_sig5,Fast%D
+MFI,Sonar_sig5,MA5_gra
+MFI,Sonar_sig5,Volume_OSC
+MFI,Sonar_sig5,Disparity20
+MFI,Sonar_sig5,CCI
+MFI,Fast%D,MA5_gra
+MFI,Fast%D,Volume_OSC
+MFI,Fast%D,Disparity20
+MFI,Fast%D,CCI
+MFI,MA5_gra,Volume_OSC
+MFI,MA5_gra,Disparity20
+MFI,MA5_gra,CCI
+MFI,Volume_OSC,Disparity20
+MFI,Volume_OSC,CCI
+MFI,Disparity20,CCI
+Disparity60,VR,MACD_OSC
+Disparity60,VR,RSI14
+Disparity60,VR,MA20_gra
+Disparity60,VR,Momentum
+Disparity60,VR,RSI signal
+Disparity60,VR,Sonar_sig5
+Disparity60,VR,Fast%D
+Disparity60,VR,MA5_gra
+Disparity60,VR,Volume_OSC
+Disparity60,VR,Disparity20
+Disparity60,VR,CCI
+Disparity60,MACD_OSC,RSI14
+Disparity60,MACD_OSC,MA20_gra
+Disparity60,MACD_OSC,Momentum
+Disparity60,MACD_OSC,RSI signal
+Disparity60,MACD_OSC,Sonar_sig5
+Disparity60,MACD_OSC,Fast%D
+Disparity60,MACD_OSC,MA5_gra
+Disparity60,MACD_OSC,Volume_OSC
+Disparity60,MACD_OSC,Disparity20
+Disparity60,MACD_OSC,CCI
+Disparity60,RSI14,MA20_gra
+Disparity60,RSI14,Momentum
+Disparity60,RSI14,RSI signal
+Disparity60,RSI14,Sonar_sig5
+Disparity60,RSI14,Fast%D
+Disparity60,RSI14,MA5_gra
+Disparity60,RSI14,Volume_OSC
+Disparity60,RSI14,Disparity20
+Disparity60,RSI14,CCI
+Disparity60,MA20_gra,Momentum
+Disparity60,MA20_gra,RSI signal
+Disparity60,MA20_gra,Sonar_sig5
+Disparity60,MA20_gra,Fast%D
+Disparity60,MA20_gra,MA5_gra
+Disparity60,MA20_gra,Volume_OSC
+Disparity60,MA20_gra,Disparity20
+Disparity60,MA20_gra,CCI
+Disparity60,Momentum,RSI signal
+Disparity60,Momentum,Sonar_sig5
+Disparity60,Momentum,Fast%D
+Disparity60,Momentum,MA5_gra
+Disparity60,Momentum,Volume_OSC
+Disparity60,Momentum,Disparity20
+Disparity60,Momentum,CCI
+Disparity60,RSI signal,Sonar_sig5
+Disparity60,RSI signal,Fast%D
+Disparity60,RSI signal,MA5_gra
+Disparity60,RSI signal,Volume_OSC
+Disparity60,RSI signal,Disparity20
+Disparity60,RSI signal,CCI
+Disparity60,Sonar_sig5,Fast%D
+Disparity60,Sonar_sig5,MA5_gra
+Disparity60,Sonar_sig5,Volume_OSC
+Disparity60,Sonar_sig5,Disparity20
+Disparity60,Sonar_sig5,CCI
+Disparity60,Fast%D,MA5_gra
+Disparity60,Fast%D,Volume_OSC
+Disparity60,Fast%D,Disparity20
+Disparity60,Fast%D,CCI
+Disparity60,MA5_gra,Volume_OSC
+Disparity60,MA5_gra,Disparity20
+Disparity60,MA5_gra,CCI
+Disparity60,Volume_OSC,Disparity20
+Disparity60,Volume_OSC,CCI
+Disparity60,Disparity20,CCI
+VR,MACD_OSC,RSI14
+VR,MACD_OSC,MA20_gra
+VR,MACD_OSC,Momentum
+VR,MACD_OSC,RSI signal
+VR,MACD_OSC,Sonar_sig5
+VR,MACD_OSC,Fast%D
+VR,MACD_OSC,MA5_gra
+VR,MACD_OSC,Volume_OSC
+VR,MACD_OSC,Disparity20
+VR,MACD_OSC,CCI
+VR,RSI14,MA20_gra
+VR,RSI14,Momentum
+VR,RSI14,RSI signal
+VR,RSI14,Sonar_sig5
+VR,RSI14,Fast%D
+VR,RSI14,MA5_gra
+VR,RSI14,Volume_OSC
+VR,RSI14,Disparity20
+VR,RSI14,CCI
+VR,MA20_gra,Momentum
+VR,MA20_gra,RSI signal
+VR,MA20_gra,Sonar_sig5
+VR,MA20_gra,Fast%D
+VR,MA20_gra,MA5_gra
+VR,MA20_gra,Volume_OSC
+VR,MA20_gra,Disparity20
+VR,MA20_gra,CCI
+VR,Momentum,RSI signal
+VR,Momentum,Sonar_sig5
+VR,Momentum,Fast%D
+VR,Momentum,MA5_gra
+VR,Momentum,Volume_OSC
+VR,Momentum,Disparity20
+VR,Momentum,CCI
+VR,RSI signal,Sonar_sig5
+VR,RSI signal,Fast%D
+VR,RSI signal,MA5_gra
+VR,RSI signal,Volume_OSC
+VR,RSI signal,Disparity20
+VR,RSI signal,CCI
+VR,Sonar_sig5,Fast%D
+VR,Sonar_sig5,MA5_gra
+VR,Sonar_sig5,Volume_OSC
+VR,Sonar_sig5,Disparity20
+VR,Sonar_sig5,CCI
+VR,Fast%D,MA5_gra
+VR,Fast%D,Volume_OSC
+VR,Fast%D,Disparity20
+VR,Fast%D,CCI
+VR,MA5_gra,Volume_OSC
+VR,MA5_gra,Disparity20
+VR,MA5_gra,CCI
+VR,Volume_OSC,Disparity20
+VR,Volume_OSC,CCI
+VR,Disparity20,CCI
+MACD_OSC,RSI14,MA20_gra
+MACD_OSC,RSI14,Momentum
+MACD_OSC,RSI14,RSI signal
+MACD_OSC,RSI14,Sonar_sig5
+MACD_OSC,RSI14,Fast%D
+MACD_OSC,RSI14,MA5_gra
+MACD_OSC,RSI14,Volume_OSC
+MACD_OSC,RSI14,Disparity20
+MACD_OSC,RSI14,CCI
+MACD_OSC,MA20_gra,Momentum
+MACD_OSC,MA20_gra,RSI signal
+MACD_OSC,MA20_gra,Sonar_sig5
+MACD_OSC,MA20_gra,Fast%D
+MACD_OSC,MA20_gra,MA5_gra
+MACD_OSC,MA20_gra,Volume_OSC
+MACD_OSC,MA20_gra,Disparity20
+MACD_OSC,MA20_gra,CCI
+MACD_OSC,Momentum,RSI signal
+MACD_OSC,Momentum,Sonar_sig5
+MACD_OSC,Momentum,Fast%D
+MACD_OSC,Momentum,MA5_gra
+MACD_OSC,Momentum,Volume_OSC
+MACD_OSC,Momentum,Disparity20
+MACD_OSC,Momentum,CCI
+MACD_OSC,RSI signal,Sonar_sig5
+MACD_OSC,RSI signal,Fast%D
+MACD_OSC,RSI signal,MA5_gra
+MACD_OSC,RSI signal,Volume_OSC
+MACD_OSC,RSI signal,Disparity20
+MACD_OSC,RSI signal,CCI
+MACD_OSC,Sonar_sig5,Fast%D
+MACD_OSC,Sonar_sig5,MA5_gra
+MACD_OSC,Sonar_sig5,Volume_OSC
+MACD_OSC,Sonar_sig5,Disparity20
+MACD_OSC,Sonar_sig5,CCI
+MACD_OSC,Fast%D,MA5_gra
+MACD_OSC,Fast%D,Volume_OSC
+MACD_OSC,Fast%D,Disparity20
+MACD_OSC,Fast%D,CCI
+MACD_OSC,MA5_gra,Volume_OSC
+MACD_OSC,MA5_gra,Disparity20
+MACD_OSC,MA5_gra,CCI
+MACD_OSC,Volume_OSC,Disparity20
+MACD_OSC,Volume_OSC,CCI
+MACD_OSC,Disparity20,CCI
+RSI14,MA20_gra,Momentum
+RSI14,MA20_gra,RSI signal
+RSI14,MA20_gra,Sonar_sig5
+RSI14,MA20_gra,Fast%D
+RSI14,MA20_gra,MA5_gra
+RSI14,MA20_gra,Volume_OSC
+RSI14,MA20_gra,Disparity20
+RSI14,MA20_gra,CCI
+RSI14,Momentum,RSI signal
+RSI14,Momentum,Sonar_sig5
+RSI14,Momentum,Fast%D
+RSI14,Momentum,MA5_gra
+RSI14,Momentum,Volume_OSC
+RSI14,Momentum,Disparity20
+RSI14,Momentum,CCI
+RSI14,RSI signal,Sonar_sig5
+RSI14,RSI signal,Fast%D
+RSI14,RSI signal,MA5_gra
+RSI14,RSI signal,Volume_OSC
+RSI14,RSI signal,Disparity20
+RSI14,RSI signal,CCI
+RSI14,Sonar_sig5,Fast%D
+RSI14,Sonar_sig5,MA5_gra
+RSI14,Sonar_sig5,Volume_OSC
+RSI14,Sonar_sig5,Disparity20
+RSI14,Sonar_sig5,CCI
+RSI14,Fast%D,MA5_gra
+RSI14,Fast%D,Volume_OSC
+RSI14,Fast%D,Disparity20
+RSI14,Fast%D,CCI
+RSI14,MA5_gra,Volume_OSC
+RSI14,MA5_gra,Disparity20
+RSI14,MA5_gra,CCI
+RSI14,Volume_OSC,Disparity20
+RSI14,Volume_OSC,CCI
+RSI14,Disparity20,CCI
+MA20_gra,Momentum,RSI signal
+MA20_gra,Momentum,Sonar_sig5
+MA20_gra,Momentum,Fast%D
+MA20_gra,Momentum,MA5_gra
+MA20_gra,Momentum,Volume_OSC
+MA20_gra,Momentum,Disparity20
+MA20_gra,Momentum,CCI
+MA20_gra,RSI signal,Sonar_sig5
+MA20_gra,RSI signal,Fast%D
+MA20_gra,RSI signal,MA5_gra
+MA20_gra,RSI signal,Volume_OSC
+MA20_gra,RSI signal,Disparity20
+MA20_gra,RSI signal,CCI
+MA20_gra,Sonar_sig5,Fast%D
+MA20_gra,Sonar_sig5,MA5_gra
+MA20_gra,Sonar_sig5,Volume_OSC
+MA20_gra,Sonar_sig5,Disparity20
+MA20_gra,Sonar_sig5,CCI
+MA20_gra,Fast%D,MA5_gra
+MA20_gra,Fast%D,Volume_OSC
+MA20_gra,Fast%D,Disparity20
+MA20_gra,Fast%D,CCI
+MA20_gra,MA5_gra,Volume_OSC
+MA20_gra,MA5_gra,Disparity20
+MA20_gra,MA5_gra,CCI
+MA20_gra,Volume_OSC,Disparity20
+MA20_gra,Volume_OSC,CCI
+MA20_gra,Disparity20,CCI
+Momentum,RSI signal,Sonar_sig5
+Momentum,RSI signal,Fast%D
+Momentum,RSI signal,MA5_gra
+Momentum,RSI signal,Volume_OSC
+Momentum,RSI signal,Disparity20
+Momentum,RSI signal,CCI
+Momentum,Sonar_sig5,Fast%D
+Momentum,Sonar_sig5,MA5_gra
+Momentum,Sonar_sig5,Volume_OSC
+Momentum,Sonar_sig5,Disparity20
+Momentum,Sonar_sig5,CCI
+Momentum,Fast%D,MA5_gra
+Momentum,Fast%D,Volume_OSC
+Momentum,Fast%D,Disparity20
+Momentum,Fast%D,CCI
+Momentum,MA5_gra,Volume_OSC
+Momentum,MA5_gra,Disparity20
+Momentum,MA5_gra,CCI
+Momentum,Volume_OSC,Disparity20
+Momentum,Volume_OSC,CCI
+Momentum,Disparity20,CCI
+RSI signal,Sonar_sig5,Fast%D
+RSI signal,Sonar_sig5,MA5_gra
+RSI signal,Sonar_sig5,Volume_OSC
+RSI signal,Sonar_sig5,Disparity20
+RSI signal,Sonar_sig5,CCI
+RSI signal,Fast%D,MA5_gra
+RSI signal,Fast%D,Volume_OSC
+RSI signal,Fast%D,Disparity20
+RSI signal,Fast%D,CCI
+RSI signal,MA5_gra,Volume_OSC
+RSI signal,MA5_gra,Disparity20
+RSI signal,MA5_gra,CCI
+RSI signal,Volume_OSC,Disparity20
+RSI signal,Volume_OSC,CCI
+RSI signal,Disparity20,CCI
+Sonar_sig5,Fast%D,MA5_gra
+Sonar_sig5,Fast%D,Volume_OSC
+Sonar_sig5,Fast%D,Disparity20
+Sonar_sig5,Fast%D,CCI
+Sonar_sig5,MA5_gra,Volume_OSC
+Sonar_sig5,MA5_gra,Disparity20
+Sonar_sig5,MA5_gra,CCI
+Sonar_sig5,Volume_OSC,Disparity20
+Sonar_sig5,Volume_OSC,CCI
+Sonar_sig5,Disparity20,CCI
+Fast%D,MA5_gra,Volume_OSC
+Fast%D,MA5_gra,Disparity20
+Fast%D,MA5_gra,CCI
+Fast%D,Volume_OSC,Disparity20
+Fast%D,Volume_OSC,CCI
+Fast%D,Disparity20,CCI
+MA5_gra,Volume_OSC,Disparity20
+MA5_gra,Volume_OSC,CCI
+MA5_gra,Disparity20,CCI
+Volume_OSC,Disparity20,CCI

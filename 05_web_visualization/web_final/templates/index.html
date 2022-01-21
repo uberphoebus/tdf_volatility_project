@@ -1,0 +1,4425 @@
+<html lang="en" class=" "><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TDF</title>
+
+<link href="static/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="static/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<link href="static/vendors/nprogress/nprogress.css" rel="stylesheet">
+<link href="static/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+<link href="static/build/css/custom.min.css" rel="stylesheet">
+<!-----------------------------------------폰트 변경 관련------------------------------------------------>
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Jua&family=Poor+Story&display=swap" rel="stylesheet"> -->
+<!----------------------------------------------------------------------------------------------------->
+
+<meta name="robots" content="noindex, nofollow">
+<style type="text/css">
+.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;box-sizing: content-box;z-index: 10000;}
+.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style>
+<style type="text/css">
+.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;box-sizing: content-box;z-index: 10000;}
+.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}
+</style>
+<style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;box-sizing: content-box;z-index: 10000;}
+.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style>
+<style type="text/css">
+.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;box-sizing: content-box;z-index: 10000;}
+.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}
+</style>
+<style>
+body, h1, h2, h3, h4, h5, h6, p, span {
+font-family: 'Gowun Batang'!important;
+  }
+</style>
+</head>
+<body class="nav-md">
+<div class="container body">
+<div class="main_container">
+<div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+            <div class="navbar nav_title" style="border: 0;">
+              <a href="index.html" class="site_title"><i class="fa fa-line-chart"></i> <span>투책투본</span></a>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <!-- menu profile quick info -->
+
+            <!-- /menu profile quick info -->
+
+            <br>
+
+            <!-- sidebar menu -->
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section">
+
+                <ul class="nav side-menu">
+                  <li><a href="/"><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="/">Dashboard</a></li>
+                      <!-- <li><a href="/page3">TeamInfo</a></li> -->
+                    </ul>
+                  </li>
+
+
+
+
+
+                </ul>
+              </div>
+
+
+            </div>
+            <!-- /sidebar menu -->
+
+            <!-- /menu footer buttons -->
+            <div class="sidebar-footer hidden-small">
+              <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Settings">
+                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="" data-original-title="FullScreen">
+                <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Lock">
+                <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="" href="login.html" data-original-title="Logout">
+                <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+              </a>
+            </div>
+            <!-- /menu footer buttons -->
+          </div>
+        </div>
+
+
+<div class="top_nav">
+<div class="nav_menu">
+<div class="nav toggle">
+<a id="menu_toggle"><i class="fa fa-bars"></i></a>
+</div>
+
+</div>
+</div>
+
+
+<div class="right_col" role="main" style="min-height: 1684.6px;">
+<div class="">
+
+<!---------- 붙일 상단 ---------->
+<div class="row">
+<div class="col-md-12">
+<div class="">
+<div class="x_content">
+    <div class="col-md-3 col-sm-3  ">
+    <div class="x_panel">
+    <div class="x_title">
+    <h2><strong>공격형 Glide Path<strong></h2>
+    <ul class="nav navbar-right panel_toolbox">
+    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+    </li>
+    <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 23px, 0px);">
+    <a class="dropdown-item" href="#">Settings 1</a>
+    <a class="dropdown-item" href="#">Settings 2</a>
+    </div>
+    </li>
+    <li><a class="close-link"><i class="fa fa-close"></i></a>
+    </li>
+    </ul>
+    <div class="clearfix"></div>
+     </div>
+    <div class="x_content" style="display: block;">
+    <div style="text-align: center; margin-bottom: 17px">
+    <span class="chart" data-percent="84">
+    <span class="percent">84</span>
+    <canvas height="110" width="110"></canvas><canvas height="110" width="110"></canvas><canvas height="110" width="110"></canvas><canvas height="110" width="110"></canvas></span>
+    </div>
+    <div class="pie_bg" style="text-align: center; display: none; margin-bottom: 17px">
+    <canvas id="canvas_doughnut2" height="130"></canvas>
+    </div>
+    <!----------------------------- bybyby ----------------->
+    <div style="text-align: center; overflow: hidden; margin: 10px 5px 3px;"><iframe class="chartjs-hidden-iframe" style="width: 100%; display: block; border: 0px; height: 0px; margin: 0px; position: absolute; inset: 0px;"></iframe><iframe class="chartjs-hidden-iframe" style="width: 100%; display: block; border: 0px; height: 0px; margin: 0px; position: absolute; inset: 0px;"></iframe><iframe class="chartjs-hidden-iframe" style="width: 100%; display: block; border: 0px; height: 0px; margin: 0px; position: absolute; inset: 0px;"></iframe><iframe class="chartjs-hidden-iframe" style="width: 100%; display: block; border: 0px; height: 0px; margin: 0px; position: absolute; inset: 0px;"></iframe>
+    <canvas id="canvas_line2" height="114" width="183" style="width: 293px; height: 183px;"></canvas>
+    </div>
+
+    </div>
+    </div>
+    </div>
+    <div class="col-md-3 col-sm-3  ">
+    <div class="x_panel">
+    <div class="x_title">
+    <h2><strong>중립형 Glide Path</strong></h2>
+    <ul class="nav navbar-right panel_toolbox">
+    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+    </li>
+    <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Settings 1</a>
+    <a class="dropdown-item" href="#">Settings 2</a>
+    </div>
+    </li>
+    <li><a class="close-link"><i class="fa fa-close"></i></a>
+    </li>
+    </ul>
+    <div class="clearfix"></div>
+    </div>
+    <div class="x_content">
+    <div style="text-align: center; margin-bottom: 17px">
+    <span class="chart" data-percent="66">
+     <span class="percent">66</span>
+    <canvas height="110" width="110"></canvas><canvas height="110" width="110"></canvas><canvas height="110" width="110"></canvas><canvas height="110" width="110"></canvas></span>
+    </div>
+    <div class="pie_bg" style="text-align: center; display: none; margin-bottom: 17px">
+    <canvas id="canvas_doughnut3" height="130"></canvas>
+    </div>
+
+    <div style="text-align: center; overflow: hidden; margin: 10px 5px 3px;"><iframe class="chartjs-hidden-iframe" style="width: 100%; display: block; border: 0px; height: 0px; margin: 0px; position: absolute; inset: 0px;"></iframe><iframe class="chartjs-hidden-iframe" style="width: 100%; display: block; border: 0px; height: 0px; margin: 0px; position: absolute; inset: 0px;"></iframe><iframe class="chartjs-hidden-iframe" style="width: 100%; display: block; border: 0px; height: 0px; margin: 0px; position: absolute; inset: 0px;"></iframe><iframe class="chartjs-hidden-iframe" style="width: 100%; display: block; border: 0px; height: 0px; margin: 0px; position: absolute; inset: 0px;"></iframe>
+    <canvas id="canvas_line3" height="114" width="183" style="width: 293px; height: 183px;"></canvas>
+    </div>
+
+    </div>
+    </div>
+    </div>
+    <div class="col-md-3 col-sm-3  ">
+    <div class="x_panel">
+    <div class="x_title">
+    <h2><strong>방어형 Glide Path</strong></h2>
+    <ul class="nav navbar-right panel_toolbox">
+    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+    </li>
+    <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Settings 1</a>
+    <a class="dropdown-item" href="#">Settings 2</a>
+    </div>
+    </li>
+    <li><a class="close-link"><i class="fa fa-close"></i></a>
+    </li>
+    </ul>
+    <div class="clearfix"></div>
+    </div>
+    <div class="x_content">
+    <div style="text-align: center; margin-bottom: 17px">
+    <span class="chart" data-percent="53">
+    <span class="percent">53</span>
+    <canvas height="110" width="110"></canvas><canvas height="110" width="110"></canvas><canvas height="110" width="110"></canvas><canvas height="110" width="110"></canvas></span>
+    </div>
+    <div class="pie_bg" style="text-align: center; display: none; margin-bottom: 17px">
+    <canvas id="canvas_doughnut4" height="130"></canvas>
+    </div>
+    <div style="text-align: center;">
+
+    </div>
+    <div style="text-align: center; overflow: hidden; margin: 10px 5px 3px;"><iframe class="chartjs-hidden-iframe" style="width: 100%; display: block; border: 0px; height: 0px; margin: 0px; position: absolute; inset: 0px;"></iframe><iframe class="chartjs-hidden-iframe" style="width: 100%; display: block; border: 0px; height: 0px; margin: 0px; position: absolute; inset: 0px;"></iframe><iframe class="chartjs-hidden-iframe" style="width: 100%; display: block; border: 0px; height: 0px; margin: 0px; position: absolute; inset: 0px;"></iframe><iframe class="chartjs-hidden-iframe" style="width: 100%; display: block; border: 0px; height: 0px; margin: 0px; position: absolute; inset: 0px;"></iframe>
+    <canvas id="canvas_line4" height="114" width="183" style="width: 293px; height: 183px;"></canvas>
+    </div>
+
+    </div>
+    </div>
+    </div>
+    <div class="col-md-3 col-sm-3  " style="height:370px">
+        <div class="x_panel">
+        <div class="x_title">
+        <h2><strong>SERVICE</strong></h2>
+        <ul class="nav navbar-right panel_toolbox">
+        <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+        </li>
+        <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Settings 1</a>
+        <a class="dropdown-item" href="#">Settings 2</a>
+        </div>
+        </li>
+        <li><a class="close-link"><i class="fa fa-close"></i></a>
+        </li>
+        </ul>
+        <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+        <ul class="list-unstyled top_profiles scroll-view">
+    
+            <!-- Risk Avoiding -->
+            <li class="media event">
+            <!-- <a class="pull-left border-area profile_thumb">
+            <i class="fa fa-eye area"></i>
+            </a> -->
+            <div class="media-body" >
+            <a class="title" href="#" style="font-size: 19px;"><I>Risk Avoiding</I></a>
+            <p style="font-size: 12px; line-height: 170%;">예측된 변동성을 기반으로 낙폭구간을 회피함으로써 안정적인 수익률을 보장</p>
+            <!-- <p> <small>12 Sales Today</small> -->
+            </p>
+            </div>
+            </li>
+    
+            <!-- Rebalancing -->
+            <li class="media event">
+            <!-- <a class="pull-left border-green profile_thumb">
+            <i class="fa fa-undo green"></i>
+            </a> -->
+            <div class="media-body">
+            <a class="title" href="#" style="font-size: 19px;"><I>Rebalancing</I></a>
+            <p style="font-size: 12px; line-height: 170%;">최초 설정한 위험수준을 초과할 경우 리밸런싱을 통해 손실을 최소화</p>
+            <!-- <p> <small>12 Sales Today</small> -->
+            </p>
+            </div>
+            </li>
+    
+            <!-- Glidepath -->
+            <li class="media event">
+            <!-- <a class="pull-left border-blue profile_thumb">
+            <i class="fa fa-area-chart blue"></i>
+            </a> -->
+            <div class="media-body">
+            <a class="title" href="#" style="font-size: 19px;"><I>GlidePath</I></a>
+            <p style="font-size: 12px; line-height: 170%;">목표시점에 최고의 성과를 얻을 수 있도록 기간별로 위험자산과 무위험자산의 비중을 조절</p>
+            <!-- <p> <small>12 Sales Today</small> -->
+            </p>
+            </div>
+            </li>
+    
+            <!-- Customizing -->
+            <li class="media event">
+            <!-- <a class="pull-left border-aero profile_thumb">
+            <i class="fa fa-user aero"></i>
+            </a> -->
+            <div class="media-body">
+            <a class="title" href="#" style="font-size: 19px;"><I>Customizing</I></a>
+            <p style="font-size: 12px; line-height: 170%;">GlidePath와 위험수준을 선택할 수 있는 개인 맞춤형 포트폴리오 구성</p>
+            <!-- <p> <small>12 Sales Today</small> -->
+            </p>
+            </div>
+            </li>
+    
+            </ul>
+        </div>
+        </div>
+        </div>
+</div>
+</div>
+</div>
+
+</div>
+
+<!---------- 붙일 상단 ---------->
+
+
+
+
+<div class="row">
+<!-- -------------------------------------------------------------------
+// 위험자산 내 비중 : 하단좌측(2,1)
+//------------------------------------------------------------------- -->
+            <div class="col-md-4 col-sm-4  ">
+              <div class="x_panel">
+              <div class="x_title">
+              <h2><strong>위험자산 내 투자 비중</strong></h2>
+              <ul class="nav navbar-right panel_toolbox">
+              <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+              </li>
+              <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Settings 1</a>
+              <a class="dropdown-item" href="#">Settings 2</a>
+              </div>
+              </li>
+              <li><a class="close-link"><i class="fa fa-close"></i></a>
+              </li>
+              </ul>
+              <div class="clearfix"></div>
+              </div>
+              <div class="x_content">
+              <div id="echart_donut" style="height: 350px; -webkit-tap-highlight-color: transparent; user-select: none; position: relative; background-color: transparent;" _echarts_instance_="ec_1638008959723"><div style="position: relative; overflow: hidden; width: 434px; height: 350px;"><canvas width="434" height="350" data-zr-dom-id="zr_0" style="position: absolute; left: 0px; top: 0px; width: 434px; height: 350px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></canvas></div><div></div></div>
+              </div>
+              </div>
+              </div>
+
+<!-- -------------------------------------------------------------------
+// 백테스트 변동성 대비 수익률 분포 : 하단중앙(2,2)
+//------------------------------------------------------------------- -->
+            <div class="col-md-5 col-sm-5  ">
+  <div class="x_panel">
+  <div class="x_title">
+  <h2><strong>백테스트 변동성 대비 수익률 분포</strong></h2>
+  <ul class="nav navbar-right panel_toolbox">
+  <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+  </li>
+  <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+  <a class="dropdown-item" href="#">Settings 1</a>
+  <a class="dropdown-item" href="#">Settings 2</a>
+  </div>
+  </li>
+  <li><a class="close-link"><i class="fa fa-close"></i></a>
+  </li>
+  </ul>
+  <div class="clearfix"></div>
+  </div>
+  <div class="x_content">
+  <div id="echart_scatter" style="height: 350px; -webkit-tap-highlight-color: transparent; user-select: none; position: relative; background-color: transparent;" _echarts_instance_="ec_1638008959722"><div style="position: relative; overflow: hidden; width: 558px; height: 350px;"><canvas width="558" height="350" data-zr-dom-id="zr_0" style="position: absolute; left: 0px; top: 0px; width: 558px; height: 350px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></canvas></div><div></div></div>
+  </div>
+  </div>
+  </div>
+
+<!-- -------------------------------------------------------------------
+// 포트폴리오 전략 선택 : 하단우측(2,3)
+//------------------------------------------------------------------- -->
+            <div class="col-md-3 col-sm-3 ">
+      <div class="x_panel">
+      <div class="x_title">
+          <h2><strong>나의 포트폴리오 보기</strong></h2>
+          <ul class="nav navbar-right panel_toolbox">
+          <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+          </li>
+          <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Settings 1</a>
+          <a class="dropdown-item" href="#">Settings 2</a>
+          </div>
+          </li>
+          <li><a class="close-link"><i class="fa fa-close"></i></a>
+          </li>
+          </ul>
+          <div class="clearfix"></div>
+      </div>
+      <div class="x_content">
+            <div class="dashboard-widget-content">
+                <br>
+                <!--- 붙인 email 박스-->
+                <h2 style="font-size: 15px"> &nbsp;&nbsp;최초자산 </h2>
+                <div class="col-md-12 col-sm-12  form-group has-feedback">
+                <input type="email" class="form-control has-feedback-left" id="inputSuccess4" placeholder="투자금액을 입력하세요.">
+                <span class="fa fa-won form-control-feedback left" aria-hidden="true"></span>
+                </div><br><br><br>
+
+<form action="{{ url_for('page2') }}" method="POST">
+                <!--- 붙인 버튼 --->
+                <h2 style="font-size: 15px"> &nbsp;&nbsp;Glide Path </h2>
+                <div class="row">
+                <div class="btn-group form-check" data-toggle="buttons">
+                <label class="btn btn-secondary">
+                <input type="radio" class="join-btn" name="options" id="option1" value="1_1"> &nbsp;&nbsp;&nbsp;공격형&nbsp;&nbsp;
+                </label>
+                <label class="btn btn-secondary">
+                <input type="radio" name="options" class="join-btn" id="option2" value="1_2"> &nbsp;&nbsp;&nbsp;중립형&nbsp;&nbsp;
+                </label>
+                <label class="btn btn-secondary">
+                <input type="radio" name="options" class="join-btn" id="option3" value="1_3"> &nbsp;&nbsp;&nbsp;방어형&nbsp;&nbsp;
+                </label>
+                </div>
+                </div>
+
+                <!--- 붙인 버튼 --->
+
+<!--                <h2 style="font-size: 15px"> 위험수준 </h2>-->
+<!--                <div class="row">-->
+<!--                <div class="btn-group form-check" data-toggle="buttons">-->
+<!--                <label class="btn btn-secondary">-->
+<!--                <input type="radio" class="join-btn" name="options" id="option1" value="2_1"> &nbsp;&nbsp;&nbsp; 1단계&nbsp;&nbsp;&nbsp;-->
+<!--                </label>-->
+<!--                <label class="btn btn-secondary">-->
+<!--                <input type="radio" name="options" class="join-btn" id="option2" value="2_2"> &nbsp;&nbsp;&nbsp;2단계&nbsp;&nbsp;&nbsp;-->
+<!--                </label>-->
+<!--                <label class="btn btn-secondary">-->
+<!--                <input type="radio" name="options" class="join-btn" id="option3" value="2_3"> &nbsp;&nbsp;3단계&nbsp;&nbsp;-->
+<!--                </label>-->
+<!--                </div>-->
+<!--                </div>-->
+<!--                <br>-->
+                <!--- 붙인 버튼 --->
+                <br><br><br>
+
+                <div class="row2" align="center" style="height: 40px;">
+<!--                <button type="button" class="btn btn-info btn-xs" onClick="window.open('page2')">예측하기</button>-->
+                    <input type="submit" class="btn btn-info btn-xs" name="next" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;예측하기&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;">
+                </div><br><br>
+            </div>
+      </div>
+     </div>
+</div>
+</div>
+
+</form>
+
+
+
+</div>
+</div>
+
+
+
+
+</div>
+</div>
+
+<script src="static/vendors/jquery/dist/jquery.min.js"></script>
+
+<script src="static/vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="static/vendors/fastclick/lib/fastclick.js"></script>
+
+<script src="static/vendors/nprogress/nprogress.js"></script>
+
+<!--------------------------------------------------------------- scatter chart ------------------------>
+<script src="static/vendors/echarts/dist/echarts.min.js"></script>
+<script src="static/vendors/echarts/map/js/world.js"></script>
+
+
+<script src="static/vendors/Chart.js/dist/Chart.min.js"></script>
+
+<script src="static/vendors/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
+
+<script src="static/vendors/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+
+<script src="static/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+
+<script src="static/build/js/custom.min.js"></script>
+<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/v64f9daad31f64f81be21cbef6184a5e31634941392597" integrity="sha512-gV/bogrUTVP2N3IzTDKzgP0Js1gg4fbwtYB6ftgLbKQu/V8yH2+lrKCfKHelh4SO3DPzKj4/glTO+tNJGDnb0A==" data-cf-beacon="{&quot;rayId&quot;:&quot;6b43f271faba61a6&quot;,&quot;token&quot;:&quot;cd0b4b3a733644fc843ef0b185f98241&quot;,&quot;version&quot;:&quot;2021.11.0&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
+
+<script>
+
+
+
+//hover and retain popover when on popover content
+var originalLeave = $.fn.popover.Constructor.prototype.leave;
+$.fn.popover.Constructor.prototype.leave = function (obj) {
+    var self = obj instanceof this.constructor ?
+        obj : $(obj.currentTarget)[this.type](this.getDelegateOptions()).data('bs.' + this.type);
+    var container, timeout;
+
+    originalLeave.call(this, obj);
+
+    if (obj.currentTarget) {
+        container = $(obj.currentTarget).siblings('.popover');
+        timeout = self.timeout;
+        container.one('mouseenter', function () {
+            //We entered the actual popover – call off the dogs
+            clearTimeout(timeout);
+            //Let's monitor popover content instead
+            container.one('mouseleave', function () {
+                $.fn.popover.Constructor.prototype.leave.call(self, self);
+            });
+        });
+    }
+};
+
+$('body').popover({
+    selector: '[data-popover]',
+    trigger: 'click hover',
+    delay: {
+        show: 50,
+        hide: 400
+    }
+});
+
+
+function gd(year, month, day) {
+    return new Date(year, month - 1, day).getTime();
+}
+
+
+function init_flot_chart() {
+
+    if (typeof ($.plot) === 'undefined') { return; }
+
+    console.log('init_flot_chart');
+    var randNum = function () {
+        return (Math.floor(Math.random() * (1 + 40 - 20))) + 20;
+    };
+
+    var arr_data1 = [
+        [gd(2012, 1, 1), 17],
+        [gd(2012, 1, 2), 74],
+        [gd(2012, 1, 3), 6],
+        [gd(2012, 1, 4), 39],
+        [gd(2012, 1, 5), 20],
+        [gd(2012, 1, 6), 85],
+        [gd(2012, 1, 7), 7]
+    ];
+
+    var arr_data2 = [
+        [gd(2012, 1, 1), 82],
+        [gd(2012, 1, 2), 23],
+        [gd(2012, 1, 3), 66],
+        [gd(2012, 1, 4), 9],
+        [gd(2012, 1, 5), 119],
+        [gd(2012, 1, 6), 6],
+        [gd(2012, 1, 7), 9]
+    ];
+
+    var arr_data3 = [
+        [0, 1],
+        [1, 9],
+        [2, 6],
+        [3, 10],
+        [4, 5],
+        [5, 17],
+        [6, 6],
+        [7, 10],
+        [8, 7],
+        [9, 11],
+        [10, 35],
+        [11, 9],
+        [12, 12],
+        [13, 5],
+        [14, 3],
+        [15, 4],
+        [16, 9]
+    ];
+
+    var chart_plot_02_data = [];
+
+    var chart_plot_03_data = [
+        [0, 1],
+        [1, 9],
+        [2, 6],
+        [3, 10],
+        [4, 5],
+        [5, 17],
+        [6, 6],
+        [7, 10],
+        [8, 7],
+        [9, 11],
+        [10, 35],
+        [11, 9],
+        [12, 12],
+        [13, 5],
+        [14, 3],
+        [15, 4],
+        [16, 9]
+    ];
+
+
+    for (var i = 0; i < 30; i++) {
+        chart_plot_02_data.push([new Date(Date.today().add(i).days()).getTime(), randNum() + i + i + 10]);
+    }
+
+
+    var chart_plot_01_settings = {
+        series: {
+            lines: {
+                show: false,
+                fill: true
+            },
+            splines: {
+                show: true,
+                tension: 0.4,
+                lineWidth: 1,
+                fill: 0.4
+            },
+            points: {
+                radius: 0,
+                show: true
+            },
+            shadowSize: 2
+        },
+        grid: {
+            verticalLines: true,
+            hoverable: true,
+            clickable: true,
+            tickColor: "#d5d5d5",
+            borderWidth: 1,
+            color: '#fff'
+        },
+        colors: ["rgba(38, 185, 154, 0.38)", "rgba(3, 88, 106, 0.38)"],
+        xaxis: {
+            tickColor: "rgba(51, 51, 51, 0.06)",
+            mode: "time",
+            tickSize: [1, "day"],
+            //tickLength: 10,
+            axisLabel: "Date",
+            axisLabelUseCanvas: true,
+            axisLabelFontSizePixels: 12,
+            axisLabelFontFamily: 'Verdana, Arial',
+            axisLabelPadding: 10
+        },
+        yaxis: {
+            ticks: 8,
+            tickColor: "rgba(51, 51, 51, 0.06)",
+        },
+        tooltip: false
+    }
+
+    var chart_plot_02_settings = {
+        grid: {
+            show: true,
+            aboveData: true,
+            color: "#3f3f3f",
+            labelMargin: 10,
+            axisMargin: 0,
+            borderWidth: 0,
+            borderColor: null,
+            minBorderMargin: 5,
+            clickable: true,
+            hoverable: true,
+            autoHighlight: true,
+            mouseActiveRadius: 100
+        },
+        series: {
+            lines: {
+                show: true,
+                fill: true,
+                lineWidth: 2,
+                steps: false
+            },
+            points: {
+                show: true,
+                radius: 4.5,
+                symbol: "circle",
+                lineWidth: 3.0
+            }
+        },
+        legend: {
+            position: "ne",
+            margin: [0, -25],
+            noColumns: 0,
+            labelBoxBorderColor: null,
+            labelFormatter: function (label, series) {
+                return label + '&nbsp;&nbsp;';
+            },
+            width: 40,
+            height: 1
+        },
+        colors: ['#96CA59', '#3F97EB', '#72c380', '#6f7a8a', '#f7cb38', '#5a8022', '#2c7282'],
+        shadowSize: 0,
+        tooltip: true,
+        tooltipOpts: {
+            content: "%s: %y.0",
+            xDateFormat: "%d/%m",
+            shifts: {
+                x: -30,
+                y: -50
+            },
+            defaultTheme: false
+        },
+        yaxis: {
+            min: 0
+        },
+        xaxis: {
+            mode: "time",
+            minTickSize: [1, "day"],
+            timeformat: "%d/%m/%y",
+            min: chart_plot_02_data[0][0],
+            max: chart_plot_02_data[20][0]
+        }
+    };
+
+    var chart_plot_03_settings = {
+        series: {
+            curvedLines: {
+                apply: true,
+                active: true,
+                monotonicFit: true
+            }
+        },
+        colors: ["#26B99A"],
+        grid: {
+            borderWidth: {
+                top: 0,
+                right: 0,
+                bottom: 1,
+                left: 1
+            },
+            borderColor: {
+                bottom: "#7F8790",
+                left: "#7F8790"
+            }
+        }
+    };
+
+
+    if ($("#chart_plot_01").length) {
+        console.log('Plot1');
+
+        $.plot($("#chart_plot_01"), [arr_data1, arr_data2], chart_plot_01_settings);
+    }
+
+
+    if ($("#chart_plot_02").length) {
+        console.log('Plot2');
+
+        $.plot($("#chart_plot_02"),
+            [{
+                label: "Email Sent",
+                data: chart_plot_02_data,
+                lines: {
+                    fillColor: "rgba(150, 202, 89, 0.12)"
+                },
+                points: {
+                    fillColor: "#fff"
+                }
+            }], chart_plot_02_settings);
+
+    }
+
+    if ($("#chart_plot_03").length) {
+        console.log('Plot3');
+
+
+        $.plot($("#chart_plot_03"), [{
+            label: "Registrations",
+            data: chart_plot_03_data,
+            lines: {
+                fillColor: "rgba(150, 202, 89, 0.12)"
+            },
+            points: {
+                fillColor: "#fff"
+            }
+        }], chart_plot_03_settings);
+
+    };
+
+}
+
+
+/* STARRR */
+
+function init_starrr() {
+
+    if (typeof (starrr) === 'undefined') { return; }
+    console.log('init_starrr');
+
+    $(".stars").starrr();
+
+    $('.stars-existing').starrr({
+        rating: 4
+    });
+
+    $('.stars').on('starrr:change', function (e, value) {
+        $('.stars-count').html(value);
+    });
+
+    $('.stars-existing').on('starrr:change', function (e, value) {
+        $('.stars-count-existing').html(value);
+    });
+
+};
+
+
+function init_JQVmap() {
+
+    //console.log('check init_JQVmap [' + typeof (VectorCanvas) + '][' + typeof (jQuery.fn.vectorMap) + ']' );
+
+    if (typeof (jQuery.fn.vectorMap) === 'undefined') { return; }
+
+    console.log('init_JQVmap');
+
+    if ($('#world-map-gdp').length) {
+
+        $('#world-map-gdp').vectorMap({
+            map: 'world_en',
+            backgroundColor: null,
+            color: '#ffffff',
+            hoverOpacity: 0.7,
+            selectedColor: '#666666',
+            enableZoom: true,
+            showTooltip: true,
+            values: sample_data,
+            scaleColors: ['#E6F2F0', '#149B7E'],
+            normalizeFunction: 'polynomial'
+        });
+
+    }
+
+    if ($('#usa_map').length) {
+
+        $('#usa_map').vectorMap({
+            map: 'usa_en',
+            backgroundColor: null,
+            color: '#ffffff',
+            hoverOpacity: 0.7,
+            selectedColor: '#666666',
+            enableZoom: true,
+            showTooltip: true,
+            values: sample_data,
+            scaleColors: ['#E6F2F0', '#149B7E'],
+            normalizeFunction: 'polynomial'
+        });
+
+    }
+
+};
+
+
+function init_skycons() {
+
+    if (typeof (Skycons) === 'undefined') { return; }
+    console.log('init_skycons');
+
+    var icons = new Skycons({
+        "color": "#73879C"
+    }),
+        list = [
+            "clear-day", "clear-night", "partly-cloudy-day",
+            "partly-cloudy-night", "cloudy", "rain", "sleet", "snow", "wind",
+            "fog"
+        ],
+        i;
+
+    for (i = list.length; i--;)
+        icons.set(list[i], list[i]);
+
+    icons.play();
+
+}
+
+
+function init_chart_doughnut() {
+
+    if (typeof (Chart) === 'undefined') { return; }
+
+    console.log('init_chart_doughnut');
+
+    if ($('.canvasDoughnut').length) {
+
+        var chart_doughnut_settings = {
+            type: 'doughnut',
+            tooltipFillColor: "rgba(51, 51, 51, 0.55)",
+            data: {
+                labels: [
+                    "Symbian",
+                    "Blackberry",
+                    "Other",
+                    "Android",
+                    "IOS"
+                ],
+                datasets: [{
+                    data: [15, 20, 30, 10, 30],
+                    backgroundColor: [
+                        "#BDC3C7",
+                        "#9B59B6",
+                        "#E74C3C",
+                        "#26B99A",
+                        "#3498DB"
+                    ],
+                    hoverBackgroundColor: [
+                        "#CFD4D8",
+                        "#B370CF",
+                        "#E95E4F",
+                        "#36CAAB",
+                        "#49A9EA"
+                    ]
+                }]
+            },
+            options: {
+                legend: false,
+                responsive: false
+            }
+        }
+
+        $('.canvasDoughnut').each(function () {
+
+            var chart_element = $(this);
+            var chart_doughnut = new Chart(chart_element, chart_doughnut_settings);
+
+        });
+
+    }
+
+}
+
+function init_gauge() {
+
+    if (typeof (Gauge) === 'undefined') { return; }
+
+    console.log('init_gauge [' + $('.gauge-chart').length + ']');
+
+    console.log('init_gauge');
+
+
+    var chart_gauge_settings = {
+        lines: 12,
+        angle: 0,
+        lineWidth: 0.4,
+        pointer: {
+            length: 0.75,
+            strokeWidth: 0.042,
+            color: '#1D212A'
+        },
+        limitMax: 'false',
+        colorStart: '#1ABC9C',
+        colorStop: '#1ABC9C',
+        strokeColor: '#F0F3F3',
+        generateGradient: true
+    };
+
+
+    if ($('#chart_gauge_01').length) {
+
+        var chart_gauge_01_elem = document.getElementById('chart_gauge_01');
+        var chart_gauge_01 = new Gauge(chart_gauge_01_elem).setOptions(chart_gauge_settings);
+
+    }
+
+
+    if ($('#gauge-text').length) {
+
+        chart_gauge_01.maxValue = 6000;
+        chart_gauge_01.animationSpeed = 32;
+        chart_gauge_01.set(3200);
+        chart_gauge_01.setTextField(document.getElementById("gauge-text"));
+
+    }
+
+    if ($('#chart_gauge_02').length) {
+
+        var chart_gauge_02_elem = document.getElementById('chart_gauge_02');
+        var chart_gauge_02 = new Gauge(chart_gauge_02_elem).setOptions(chart_gauge_settings);
+
+    }
+
+
+    if ($('#gauge-text2').length) {
+
+        chart_gauge_02.maxValue = 9000;
+        chart_gauge_02.animationSpeed = 32;
+        chart_gauge_02.set(2400);
+        chart_gauge_02.setTextField(document.getElementById("gauge-text2"));
+
+    }
+
+
+}
+
+/* SPARKLINES */
+
+function init_sparklines() {
+
+    if (typeof (jQuery.fn.sparkline) === 'undefined') { return; }
+    console.log('init_sparklines');
+
+
+    $(".sparkline_one").sparkline([2, 4, 3, 4, 5, 4, 5, 4, 3, 4, 5, 6, 4, 5, 6, 3, 5, 4, 5, 4, 5, 4, 3, 4, 5, 6, 7, 5, 4, 3, 5, 6], {
+        type: 'bar',
+        height: '125',
+        barWidth: 13,
+        colorMap: {
+            '7': '#a1a1a1'
+        },
+        barSpacing: 2,
+        barColor: '#26B99A'
+    });
+
+
+    $(".sparkline_two").sparkline([2, 4, 3, 4, 5, 4, 5, 4, 3, 4, 5, 6, 7, 5, 4, 3, 5, 6], {
+        type: 'bar',
+        height: '40',
+        barWidth: 9,
+        colorMap: {
+            '7': '#a1a1a1'
+        },
+        barSpacing: 2,
+        barColor: '#26B99A'
+    });
+
+
+    $(".sparkline_three").sparkline([2, 4, 3, 4, 5, 4, 5, 4, 3, 4, 5, 6, 7, 5, 4, 3, 5, 6], {
+        type: 'line',
+        width: '200',
+        height: '40',
+        lineColor: '#26B99A',
+        fillColor: 'rgba(223, 223, 223, 0.57)',
+        lineWidth: 2,
+        spotColor: '#26B99A',
+        minSpotColor: '#26B99A'
+    });
+
+
+    $(".sparkline11").sparkline([2, 4, 3, 4, 5, 4, 5, 4, 3, 4, 6, 2, 4, 3, 4, 5, 4, 5, 4, 3], {
+        type: 'bar',
+        height: '40',
+        barWidth: 8,
+        colorMap: {
+            '7': '#a1a1a1'
+        },
+        barSpacing: 2,
+        barColor: '#26B99A'
+    });
+
+
+    $(".sparkline22").sparkline([2, 4, 3, 4, 7, 5, 4, 3, 5, 6, 2, 4, 3, 4, 5, 4, 5, 4, 3, 4, 6], {
+        type: 'line',
+        height: '40',
+        width: '200',
+        lineColor: '#26B99A',
+        fillColor: '#ffffff',
+        lineWidth: 3,
+        spotColor: '#34495E',
+        minSpotColor: '#34495E'
+    });
+
+
+    $(".sparkline_bar").sparkline([2, 4, 3, 4, 5, 4, 5, 4, 3, 4, 5, 6, 4, 5, 6, 3, 5], {
+        type: 'bar',
+        colorMap: {
+            '7': '#a1a1a1'
+        },
+        barColor: '#26B99A'
+    });
+
+
+    $(".sparkline_area").sparkline([5, 6, 7, 9, 9, 5, 3, 2, 2, 4, 6, 7], {
+        type: 'line',
+        lineColor: '#26B99A',
+        fillColor: '#26B99A',
+        spotColor: '#4578a0',
+        minSpotColor: '#728fb2',
+        maxSpotColor: '#6d93c4',
+        highlightSpotColor: '#ef5179',
+        highlightLineColor: '#8ba8bf',
+        spotRadius: 2.5,
+        width: 85
+    });
+
+
+    $(".sparkline_line").sparkline([2, 4, 3, 4, 5, 4, 5, 4, 3, 4, 5, 6, 4, 5, 6, 3, 5], {
+        type: 'line',
+        lineColor: '#26B99A',
+        fillColor: '#ffffff',
+        width: 85,
+        spotColor: '#34495E',
+        minSpotColor: '#34495E'
+    });
+
+
+    $(".sparkline_pie").sparkline([1, 1, 2, 1], {
+        type: 'pie',
+        sliceColors: ['#26B99A', '#ccc', '#75BCDD', '#D66DE2']
+    });
+
+
+    $(".sparkline_discreet").sparkline([4, 6, 7, 7, 4, 3, 2, 1, 4, 4, 2, 4, 3, 7, 8, 9, 7, 6, 4, 3], {
+        type: 'discrete',
+        barWidth: 3,
+        lineColor: '#26B99A',
+        width: '85',
+    });
+
+
+};
+
+
+/* AUTOCOMPLETE */
+
+function init_autocomplete() {
+
+    if (typeof ($.fn.autocomplete) === 'undefined') { return; }
+    console.log('init_autocomplete');
+
+    var countries = { AD: "Andorra", A2: "Andorra Test", AE: "United Arab Emirates", AF: "Afghanistan", AG: "Antigua and Barbuda", AI: "Anguilla", AL: "Albania", AM: "Armenia", AN: "Netherlands Antilles", AO: "Angola", AQ: "Antarctica", AR: "Argentina", AS: "American Samoa", AT: "Austria", AU: "Australia", AW: "Aruba", AX: "Åland Islands", AZ: "Azerbaijan", BA: "Bosnia and Herzegovina", BB: "Barbados", BD: "Bangladesh", BE: "Belgium", BF: "Burkina Faso", BG: "Bulgaria", BH: "Bahrain", BI: "Burundi", BJ: "Benin", BL: "Saint Barthélemy", BM: "Bermuda", BN: "Brunei", BO: "Bolivia", BQ: "British Antarctic Territory", BR: "Brazil", BS: "Bahamas", BT: "Bhutan", BV: "Bouvet Island", BW: "Botswana", BY: "Belarus", BZ: "Belize", CA: "Canada", CC: "Cocos [Keeling] Islands", CD: "Congo - Kinshasa", CF: "Central African Republic", CG: "Congo - Brazzaville", CH: "Switzerland", CI: "Côte d’Ivoire", CK: "Cook Islands", CL: "Chile", CM: "Cameroon", CN: "China", CO: "Colombia", CR: "Costa Rica", CS: "Serbia and Montenegro", CT: "Canton and Enderbury Islands", CU: "Cuba", CV: "Cape Verde", CX: "Christmas Island", CY: "Cyprus", CZ: "Czech Republic", DD: "East Germany", DE: "Germany", DJ: "Djibouti", DK: "Denmark", DM: "Dominica", DO: "Dominican Republic", DZ: "Algeria", EC: "Ecuador", EE: "Estonia", EG: "Egypt", EH: "Western Sahara", ER: "Eritrea", ES: "Spain", ET: "Ethiopia", FI: "Finland", FJ: "Fiji", FK: "Falkland Islands", FM: "Micronesia", FO: "Faroe Islands", FQ: "French Southern and Antarctic Territories", FR: "France", FX: "Metropolitan France", GA: "Gabon", GB: "United Kingdom", GD: "Grenada", GE: "Georgia", GF: "French Guiana", GG: "Guernsey", GH: "Ghana", GI: "Gibraltar", GL: "Greenland", GM: "Gambia", GN: "Guinea", GP: "Guadeloupe", GQ: "Equatorial Guinea", GR: "Greece", GS: "South Georgia and the South Sandwich Islands", GT: "Guatemala", GU: "Guam", GW: "Guinea-Bissau", GY: "Guyana", HK: "Hong Kong SAR China", HM: "Heard Island and McDonald Islands", HN: "Honduras", HR: "Croatia", HT: "Haiti", HU: "Hungary", ID: "Indonesia", IE: "Ireland", IL: "Israel", IM: "Isle of Man", IN: "India", IO: "British Indian Ocean Territory", IQ: "Iraq", IR: "Iran", IS: "Iceland", IT: "Italy", JE: "Jersey", JM: "Jamaica", JO: "Jordan", JP: "Japan", JT: "Johnston Island", KE: "Kenya", KG: "Kyrgyzstan", KH: "Cambodia", KI: "Kiribati", KM: "Comoros", KN: "Saint Kitts and Nevis", KP: "North Korea", KR: "South Korea", KW: "Kuwait", KY: "Cayman Islands", KZ: "Kazakhstan", LA: "Laos", LB: "Lebanon", LC: "Saint Lucia", LI: "Liechtenstein", LK: "Sri Lanka", LR: "Liberia", LS: "Lesotho", LT: "Lithuania", LU: "Luxembourg", LV: "Latvia", LY: "Libya", MA: "Morocco", MC: "Monaco", MD: "Moldova", ME: "Montenegro", MF: "Saint Martin", MG: "Madagascar", MH: "Marshall Islands", MI: "Midway Islands", MK: "Macedonia", ML: "Mali", MM: "Myanmar [Burma]", MN: "Mongolia", MO: "Macau SAR China", MP: "Northern Mariana Islands", MQ: "Martinique", MR: "Mauritania", MS: "Montserrat", MT: "Malta", MU: "Mauritius", MV: "Maldives", MW: "Malawi", MX: "Mexico", MY: "Malaysia", MZ: "Mozambique", NA: "Namibia", NC: "New Caledonia", NE: "Niger", NF: "Norfolk Island", NG: "Nigeria", NI: "Nicaragua", NL: "Netherlands", NO: "Norway", NP: "Nepal", NQ: "Dronning Maud Land", NR: "Nauru", NT: "Neutral Zone", NU: "Niue", NZ: "New Zealand", OM: "Oman", PA: "Panama", PC: "Pacific Islands Trust Territory", PE: "Peru", PF: "French Polynesia", PG: "Papua New Guinea", PH: "Philippines", PK: "Pakistan", PL: "Poland", PM: "Saint Pierre and Miquelon", PN: "Pitcairn Islands", PR: "Puerto Rico", PS: "Palestinian Territories", PT: "Portugal", PU: "U.S. Miscellaneous Pacific Islands", PW: "Palau", PY: "Paraguay", PZ: "Panama Canal Zone", QA: "Qatar", RE: "Réunion", RO: "Romania", RS: "Serbia", RU: "Russia", RW: "Rwanda", SA: "Saudi Arabia", SB: "Solomon Islands", SC: "Seychelles", SD: "Sudan", SE: "Sweden", SG: "Singapore", SH: "Saint Helena", SI: "Slovenia", SJ: "Svalbard and Jan Mayen", SK: "Slovakia", SL: "Sierra Leone", SM: "San Marino", SN: "Senegal", SO: "Somalia", SR: "Suriname", ST: "São Tomé and Príncipe", SU: "Union of Soviet Socialist Republics", SV: "El Salvador", SY: "Syria", SZ: "Swaziland", TC: "Turks and Caicos Islands", TD: "Chad", TF: "French Southern Territories", TG: "Togo", TH: "Thailand", TJ: "Tajikistan", TK: "Tokelau", TL: "Timor-Leste", TM: "Turkmenistan", TN: "Tunisia", TO: "Tonga", TR: "Turkey", TT: "Trinidad and Tobago", TV: "Tuvalu", TW: "Taiwan", TZ: "Tanzania", UA: "Ukraine", UG: "Uganda", UM: "U.S. Minor Outlying Islands", US: "United States", UY: "Uruguay", UZ: "Uzbekistan", VA: "Vatican City", VC: "Saint Vincent and the Grenadines", VD: "North Vietnam", VE: "Venezuela", VG: "British Virgin Islands", VI: "U.S. Virgin Islands", VN: "Vietnam", VU: "Vanuatu", WF: "Wallis and Futuna", WK: "Wake Island", WS: "Samoa", YD: "People's Democratic Republic of Yemen", YE: "Yemen", YT: "Mayotte", ZA: "South Africa", ZM: "Zambia", ZW: "Zimbabwe", ZZ: "Unknown or Invalid Region" };
+
+    var countriesArray = $.map(countries, function (value, key) {
+        return {
+            value: value,
+            data: key
+        };
+    });
+
+    // initialize autocomplete with custom appendTo
+    $('#autocomplete-custom-append').autocomplete({
+        lookup: countriesArray
+    });
+
+};
+
+/* AUTOSIZE */
+
+function init_autosize() {
+
+    if (typeof $.fn.autosize !== 'undefined') {
+
+        autosize($('.resizable_textarea'));
+
+    }
+
+};
+
+/* PARSLEY */
+
+function init_parsley() {
+
+    if (typeof (parsley) === 'undefined') { return; }
+    console.log('init_parsley');
+
+    $/*.listen*/('parsley:field:validate', function () {
+        validateFront();
+    });
+    $('#demo-form .btn').on('click', function () {
+        $('#demo-form').parsley().validate();
+        validateFront();
+    });
+    var validateFront = function () {
+        if (true === $('#demo-form').parsley().isValid()) {
+            $('.bs-callout-info').removeClass('hidden');
+            $('.bs-callout-warning').addClass('hidden');
+        } else {
+            $('.bs-callout-info').addClass('hidden');
+            $('.bs-callout-warning').removeClass('hidden');
+        }
+    };
+
+    $/*.listen*/('parsley:field:validate', function () {
+        validateFront();
+    });
+    $('#demo-form2 .btn').on('click', function () {
+        $('#demo-form2').parsley().validate();
+        validateFront();
+    });
+    var validateFront = function () {
+        if (true === $('#demo-form2').parsley().isValid()) {
+            $('.bs-callout-info').removeClass('hidden');
+            $('.bs-callout-warning').addClass('hidden');
+        } else {
+            $('.bs-callout-info').addClass('hidden');
+            $('.bs-callout-warning').removeClass('hidden');
+        }
+    };
+
+    try {
+        hljs.initHighlightingOnLoad();
+    } catch (err) { }
+
+};
+
+
+/* INPUTS */
+
+function onAddTag(tag) {
+    alert("Added a tag: " + tag);
+}
+
+function onRemoveTag(tag) {
+    alert("Removed a tag: " + tag);
+}
+
+function onChangeTag(input, tag) {
+    alert("Changed a tag: " + tag);
+}
+
+//tags input
+function init_TagsInput() {
+
+    if (typeof $.fn.tagsInput !== 'undefined') {
+
+        $('#tags_1').tagsInput({
+            width: 'auto'
+        });
+
+    }
+
+};
+
+/* SELECT2 */
+
+function init_select2() {
+
+    if (typeof (select2) === 'undefined') { return; }
+    console.log('init_toolbox');
+
+    $(".select2_single").select2({
+        placeholder: "Select a state",
+        allowClear: true
+    });
+    $(".select2_group").select2({});
+    $(".select2_multiple").select2({
+        maximumSelectionLength: 4,
+        placeholder: "With Max Selection limit 4",
+        allowClear: true
+    });
+
+};
+
+/* WYSIWYG EDITOR */
+
+function init_wysiwyg() {
+
+    if (typeof ($.fn.wysiwyg) === 'undefined') { return; }
+    console.log('init_wysiwyg');
+
+    function init_ToolbarBootstrapBindings() {
+        var fonts = ['Serif', 'Sans', 'Arial', 'Arial Black', 'Courier',
+            'Courier New', 'Comic Sans MS', 'Helvetica', 'Impact', 'Lucida Grande', 'Lucida Sans', 'Tahoma', 'Times',
+            'Times New Roman', 'Verdana'
+        ],
+            fontTarget = $('[title=Font]').siblings('.dropdown-menu');
+        $.each(fonts, function (idx, fontName) {
+            fontTarget.append($('<li><a data-edit="fontName ' + fontName + '" style="font-family:\'' + fontName + '\'">' + fontName + '</a></li>'));
+        });
+        $('a[title]').tooltip({
+            container: 'body'
+        });
+        $('.dropdown-menu input').click(function () {
+            return false;
+        })
+            .change(function () {
+                $(this).parent('.dropdown-menu').siblings('.dropdown-toggle').dropdown('toggle');
+            })
+            .keydown('esc', function () {
+                this.value = '';
+                $(this).change();
+            });
+
+        $('[data-role=magic-overlay]').each(function () {
+            var overlay = $(this),
+                target = $(overlay.data('target'));
+            overlay.css('opacity', 0).css('position', 'absolute').offset(target.offset()).width(target.outerWidth()).height(target.outerHeight());
+        });
+
+        if ("onwebkitspeechchange" in document.createElement("input")) {
+            var editorOffset = $('#editor').offset();
+
+            $('.voiceBtn').css('position', 'absolute').offset({
+                top: editorOffset.top,
+                left: editorOffset.left + $('#editor').innerWidth() - 35
+            });
+        } else {
+            $('.voiceBtn').hide();
+        }
+    }
+
+    function showErrorAlert(reason, detail) {
+        var msg = '';
+        if (reason === 'unsupported-file-type') {
+            msg = "Unsupported format " + detail;
+        } else {
+            console.log("error uploading file", reason, detail);
+        }
+        $('<div class="alert"> <button type="button" class="close" data-dismiss="alert">&times;</button>' +
+            '<strong>File upload error</strong> ' + msg + ' </div>').prependTo('#alerts');
+    }
+
+    $('.editor-wrapper').each(function () {
+        var id = $(this).attr('id');	//editor-one
+
+        $(this).wysiwyg({
+            toolbarSelector: '[data-target="#' + id + '"]',
+            fileUploadError: showErrorAlert
+        });
+    });
+
+
+    window.prettyPrint;
+    prettyPrint();
+
+};
+
+/* CROPPER */
+
+function init_cropper() {
+
+
+    if (typeof ($.fn.cropper) === 'undefined') { return; }
+    console.log('init_cropper');
+
+    var $image = $('#image');
+    var $download = $('#download');
+    var $dataX = $('#dataX');
+    var $dataY = $('#dataY');
+    var $dataHeight = $('#dataHeight');
+    var $dataWidth = $('#dataWidth');
+    var $dataRotate = $('#dataRotate');
+    var $dataScaleX = $('#dataScaleX');
+    var $dataScaleY = $('#dataScaleY');
+    var options = {
+        aspectRatio: 16 / 9,
+        preview: '.img-preview',
+        crop: function (e) {
+            $dataX.val(Math.round(e.x));
+            $dataY.val(Math.round(e.y));
+            $dataHeight.val(Math.round(e.height));
+            $dataWidth.val(Math.round(e.width));
+            $dataRotate.val(e.rotate);
+            $dataScaleX.val(e.scaleX);
+            $dataScaleY.val(e.scaleY);
+        }
+    };
+
+
+    // Tooltip
+    $('[data-toggle="tooltip"]').tooltip();
+
+
+    // Cropper
+    $image.on({
+        'build.cropper': function (e) {
+            console.log(e.type);
+        },
+        'built.cropper': function (e) {
+            console.log(e.type);
+        },
+        'cropstart.cropper': function (e) {
+            console.log(e.type, e.action);
+        },
+        'cropmove.cropper': function (e) {
+            console.log(e.type, e.action);
+        },
+        'cropend.cropper': function (e) {
+            console.log(e.type, e.action);
+        },
+        'crop.cropper': function (e) {
+            console.log(e.type, e.x, e.y, e.width, e.height, e.rotate, e.scaleX, e.scaleY);
+        },
+        'zoom.cropper': function (e) {
+            console.log(e.type, e.ratio);
+        }
+    }).cropper(options);
+
+
+    // Buttons
+    if (!$.isFunction(document.createElement('canvas').getContext)) {
+        $('button[data-method="getCroppedCanvas"]').prop('disabled', true);
+    }
+
+    if (typeof document.createElement('cropper').style.transition === 'undefined') {
+        $('button[data-method="rotate"]').prop('disabled', true);
+        $('button[data-method="scale"]').prop('disabled', true);
+    }
+
+
+    // Download
+    if (typeof $download[0].download === 'undefined') {
+        $download.addClass('disabled');
+    }
+
+
+    // Options
+    $('.docs-toggles').on('change', 'input', function () {
+        var $this = $(this);
+        var name = $this.attr('name');
+        var type = $this.prop('type');
+        var cropBoxData;
+        var canvasData;
+
+        if (!$image.data('cropper')) {
+            return;
+        }
+
+        if (type === 'checkbox') {
+            options[name] = $this.prop('checked');
+            cropBoxData = $image.cropper('getCropBoxData');
+            canvasData = $image.cropper('getCanvasData');
+
+            options.built = function () {
+                $image.cropper('setCropBoxData', cropBoxData);
+                $image.cropper('setCanvasData', canvasData);
+            };
+        } else if (type === 'radio') {
+            options[name] = $this.val();
+        }
+
+        $image.cropper('destroy').cropper(options);
+    });
+
+
+    // Methods
+    $('.docs-buttons').on('click', '[data-method]', function () {
+        var $this = $(this);
+        var data = $this.data();
+        var $target;
+        var result;
+
+        if ($this.prop('disabled') || $this.hasClass('disabled')) {
+            return;
+        }
+
+        if ($image.data('cropper') && data.method) {
+            data = $.extend({}, data); // Clone a new one
+
+            if (typeof data.target !== 'undefined') {
+                $target = $(data.target);
+
+                if (typeof data.option === 'undefined') {
+                    try {
+                        data.option = JSON.parse($target.val());
+                    } catch (e) {
+                        console.log(e.message);
+                    }
+                }
+            }
+
+            result = $image.cropper(data.method, data.option, data.secondOption);
+
+            switch (data.method) {
+                case 'scaleX':
+                case 'scaleY':
+                    $(this).data('option', -data.option);
+                    break;
+
+                case 'getCroppedCanvas':
+                    if (result) {
+
+                        // Bootstrap's Modal
+                        $('#getCroppedCanvasModal').modal().find('.modal-body').html(result);
+
+                        if (!$download.hasClass('disabled')) {
+                            $download.attr('href', result.toDataURL());
+                        }
+                    }
+
+                    break;
+            }
+
+            if ($.isPlainObject(result) && $target) {
+                try {
+                    $target.val(JSON.stringify(result));
+                } catch (e) {
+                    console.log(e.message);
+                }
+            }
+
+        }
+    });
+
+    // Keyboard
+    $(document.body).on('keydown', function (e) {
+        if (!$image.data('cropper') || this.scrollTop > 300) {
+            return;
+        }
+
+        switch (e.which) {
+            case 37:
+                e.preventDefault();
+                $image.cropper('move', -1, 0);
+                break;
+
+            case 38:
+                e.preventDefault();
+                $image.cropper('move', 0, -1);
+                break;
+
+            case 39:
+                e.preventDefault();
+                $image.cropper('move', 1, 0);
+                break;
+
+            case 40:
+                e.preventDefault();
+                $image.cropper('move', 0, 1);
+                break;
+        }
+    });
+
+    // Import image
+    var $inputImage = $('#inputImage');
+    var URL = window.URL || window.webkitURL;
+    var blobURL;
+
+    if (URL) {
+        $inputImage.change(function () {
+            var files = this.files;
+            var file;
+
+            if (!$image.data('cropper')) {
+                return;
+            }
+
+            if (files && files.length) {
+                file = files[0];
+
+                if (/^image\/\w+$/.test(file.type)) {
+                    blobURL = URL.createObjectURL(file);
+                    $image.one('built.cropper', function () {
+
+                        // Revoke when load complete
+                        URL.revokeObjectURL(blobURL);
+                    }).cropper('reset').cropper('replace', blobURL);
+                    $inputImage.val('');
+                } else {
+                    window.alert('Please choose an image file.');
+                }
+            }
+        });
+    } else {
+        $inputImage.prop('disabled', true).parent().addClass('disabled');
+    }
+
+
+};
+
+/* CROPPER --- end */
+
+/* KNOB */
+
+function init_knob() {
+
+    if (typeof ($.fn.knob) === 'undefined') { return; }
+    console.log('init_knob');
+
+    $(".knob").knob({
+        change: function (value) {
+            //console.log("change : " + value);
+        },
+        release: function (value) {
+            //console.log(this.$.attr('value'));
+            console.log("release : " + value);
+        },
+        cancel: function () {
+            console.log("cancel : ", this);
+        },
+        /*format : function (value) {
+         return value + '%';
+         },*/
+        draw: function () {
+
+            // "tron" case
+            if (this.$.data('skin') == 'tron') {
+
+                this.cursorExt = 0.3;
+
+                var a = this.arc(this.cv) // Arc
+                    ,
+                    pa // Previous arc
+                    , r = 1;
+
+                this.g.lineWidth = this.lineWidth;
+
+                if (this.o.displayPrevious) {
+                    pa = this.arc(this.v);
+                    this.g.beginPath();
+                    this.g.strokeStyle = this.pColor;
+                    this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, pa.s, pa.e, pa.d);
+                    this.g.stroke();
+                }
+
+                this.g.beginPath();
+                this.g.strokeStyle = r ? this.o.fgColor : this.fgColor;
+                this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, a.s, a.e, a.d);
+                this.g.stroke();
+
+                this.g.lineWidth = 2;
+                this.g.beginPath();
+                this.g.strokeStyle = this.o.fgColor;
+                this.g.arc(this.xy, this.xy, this.radius - this.lineWidth + 1 + this.lineWidth * 2 / 3, 0, 2 * Math.PI, false);
+                this.g.stroke();
+
+                return false;
+            }
+        }
+
+    });
+
+    // Example of infinite knob, iPod click wheel
+    var v, up = 0,
+        down = 0,
+        i = 0,
+        $idir = $("div.idir"),
+        $ival = $("div.ival"),
+        incr = function () {
+            i++;
+            $idir.show().html("+").fadeOut();
+            $ival.html(i);
+        },
+        decr = function () {
+            i--;
+            $idir.show().html("-").fadeOut();
+            $ival.html(i);
+        };
+    $("input.infinite").knob({
+        min: 0,
+        max: 20,
+        stopper: false,
+        change: function () {
+            if (v > this.cv) {
+                if (up) {
+                    decr();
+                    up = 0;
+                } else {
+                    up = 1;
+                    down = 0;
+                }
+            } else {
+                if (v < this.cv) {
+                    if (down) {
+                        incr();
+                        down = 0;
+                    } else {
+                        down = 1;
+                        up = 0;
+                    }
+                }
+            }
+            v = this.cv;
+        }
+    });
+
+};
+
+/* INPUT MASK */
+
+function init_InputMask() {
+
+    if (typeof ($.fn.inputmask) === 'undefined') { return; }
+    console.log('init_InputMask');
+
+    $(":input").inputmask();
+
+};
+
+/* COLOR PICKER */
+
+function init_ColorPicker() {
+
+    if (typeof ($.fn.colorpicker) === 'undefined') { return; }
+    console.log('init_ColorPicker');
+
+    $('.demo1').colorpicker();
+    $('.demo2').colorpicker();
+
+    $('#demo_forceformat').colorpicker({
+        format: 'rgba',
+        horizontal: true
+    });
+
+    $('#demo_forceformat3').colorpicker({
+        format: 'rgba',
+    });
+
+    $('.demo-auto').colorpicker();
+
+};
+
+
+/* ION RANGE SLIDER */
+
+function init_IonRangeSlider() {
+
+    if (typeof ($.fn.ionRangeSlider) === 'undefined') { return; }
+    console.log('init_IonRangeSlider');
+
+    $("#range_27").ionRangeSlider({
+        type: "double",
+        min: 1000000,
+        max: 2000000,
+        grid: true,
+        force_edges: true
+    });
+    $("#range").ionRangeSlider({
+        hide_min_max: true,
+        keyboard: true,
+        min: 0,
+        max: 5000,
+        from: 1000,
+        to: 4000,
+        type: 'double',
+        step: 1,
+        prefix: "$",
+        grid: true
+    });
+    $("#range_25").ionRangeSlider({
+        type: "double",
+        min: 1000000,
+        max: 2000000,
+        grid: true
+    });
+    $("#range_26").ionRangeSlider({
+        type: "double",
+        min: 0,
+        max: 10000,
+        step: 500,
+        grid: true,
+        grid_snap: true
+    });
+    $("#range_31").ionRangeSlider({
+        type: "double",
+        min: 0,
+        max: 100,
+        from: 30,
+        to: 70,
+        from_fixed: true
+    });
+    $(".range_min_max").ionRangeSlider({
+        type: "double",
+        min: 0,
+        max: 100,
+        from: 30,
+        to: 70,
+        max_interval: 50
+    });
+    $(".range_time24").ionRangeSlider({
+        min: +moment().subtract(12, "hours").format("X"),
+        max: +moment().format("X"),
+        from: +moment().subtract(6, "hours").format("X"),
+        grid: true,
+        force_edges: true,
+        prettify: function (num) {
+            var m = moment(num, "X");
+            return m.format("Do MMMM, HH:mm");
+        }
+    });
+
+};
+
+
+/* DATERANGEPICKER */
+
+function init_daterangepicker() {
+
+    if (typeof ($.fn.daterangepicker) === 'undefined') { return; }
+    console.log('init_daterangepicker');
+
+    var cb = function (start, end, label) {
+        console.log(start.toISOString(), end.toISOString(), label);
+        $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+    };
+
+    var optionSet1 = {
+        startDate: moment().subtract(29, 'days'),
+        endDate: moment(),
+        minDate: '01/01/2012',
+        maxDate: '12/31/2015',
+        dateLimit: {
+            days: 60
+        },
+        showDropdowns: true,
+        showWeekNumbers: true,
+        timePicker: false,
+        timePickerIncrement: 1,
+        timePicker12Hour: true,
+        ranges: {
+            'Today': [moment(), moment()],
+            'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+            'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+            'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+            'This Month': [moment().startOf('month'), moment().endOf('month')],
+            'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+        },
+        opens: 'left',
+        buttonClasses: ['btn btn-default'],
+        applyClass: 'btn-small btn-primary',
+        cancelClass: 'btn-small',
+        format: 'MM/DD/YYYY',
+        separator: ' to ',
+        locale: {
+            applyLabel: 'Submit',
+            cancelLabel: 'Clear',
+            fromLabel: 'From',
+            toLabel: 'To',
+            customRangeLabel: 'Custom',
+            daysOfWeek: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
+            monthNames: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+            firstDay: 1
+        }
+    };
+
+    $('#reportrange span').html(moment().subtract(29, 'days').format('MMMM D, YYYY') + ' - ' + moment().format('MMMM D, YYYY'));
+    $('#reportrange').daterangepicker(optionSet1, cb);
+    $('#reportrange').on('show.daterangepicker', function () {
+        console.log("show event fired");
+    });
+    $('#reportrange').on('hide.daterangepicker', function () {
+        console.log("hide event fired");
+    });
+    $('#reportrange').on('apply.daterangepicker', function (ev, picker) {
+        console.log("apply event fired, start/end dates are " + picker.startDate.format('MMMM D, YYYY') + " to " + picker.endDate.format('MMMM D, YYYY'));
+    });
+    $('#reportrange').on('cancel.daterangepicker', function (ev, picker) {
+        console.log("cancel event fired");
+    });
+    $('#options1').click(function () {
+        $('#reportrange').data('daterangepicker').setOptions(optionSet1, cb);
+    });
+    $('#options2').click(function () {
+        $('#reportrange').data('daterangepicker').setOptions(optionSet2, cb);
+    });
+    $('#destroy').click(function () {
+        $('#reportrange').data('daterangepicker').remove();
+    });
+
+}
+
+function init_daterangepicker_right() {
+
+    if (typeof ($.fn.daterangepicker) === 'undefined') { return; }
+    console.log('init_daterangepicker_right');
+
+    var cb = function (start, end, label) {
+        console.log(start.toISOString(), end.toISOString(), label);
+        $('#reportrange_right span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+    };
+
+    var optionSet1 = {
+        startDate: moment().subtract(29, 'days'),
+        endDate: moment(),
+        minDate: '01/01/2012',
+        maxDate: '12/31/2020',
+        dateLimit: {
+            days: 60
+        },
+        showDropdowns: true,
+        showWeekNumbers: true,
+        timePicker: false,
+        timePickerIncrement: 1,
+        timePicker12Hour: true,
+        ranges: {
+            'Today': [moment(), moment()],
+            'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+            'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+            'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+            'This Month': [moment().startOf('month'), moment().endOf('month')],
+            'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+        },
+        opens: 'right',
+        buttonClasses: ['btn btn-default'],
+        applyClass: 'btn-small btn-primary',
+        cancelClass: 'btn-small',
+        format: 'MM/DD/YYYY',
+        separator: ' to ',
+        locale: {
+            applyLabel: 'Submit',
+            cancelLabel: 'Clear',
+            fromLabel: 'From',
+            toLabel: 'To',
+            customRangeLabel: 'Custom',
+            daysOfWeek: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
+            monthNames: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+            firstDay: 1
+        }
+    };
+
+    $('#reportrange_right span').html(moment().subtract(29, 'days').format('MMMM D, YYYY') + ' - ' + moment().format('MMMM D, YYYY'));
+
+    $('#reportrange_right').daterangepicker(optionSet1, cb);
+
+    $('#reportrange_right').on('show.daterangepicker', function () {
+        console.log("show event fired");
+    });
+    $('#reportrange_right').on('hide.daterangepicker', function () {
+        console.log("hide event fired");
+    });
+    $('#reportrange_right').on('apply.daterangepicker', function (ev, picker) {
+        console.log("apply event fired, start/end dates are " + picker.startDate.format('MMMM D, YYYY') + " to " + picker.endDate.format('MMMM D, YYYY'));
+    });
+    $('#reportrange_right').on('cancel.daterangepicker', function (ev, picker) {
+        console.log("cancel event fired");
+    });
+
+    $('#options1').click(function () {
+        $('#reportrange_right').data('daterangepicker').setOptions(optionSet1, cb);
+    });
+
+    $('#options2').click(function () {
+        $('#reportrange_right').data('daterangepicker').setOptions(optionSet2, cb);
+    });
+
+    $('#destroy').click(function () {
+        $('#reportrange_right').data('daterangepicker').remove();
+    });
+
+}
+
+function init_daterangepicker_single_call() {
+
+    if (typeof ($.fn.daterangepicker) === 'undefined') { return; }
+    console.log('init_daterangepicker_single_call');
+
+    $('#single_cal1').daterangepicker({
+        singleDatePicker: true,
+        singleClasses: "picker_1"
+    }, function (start, end, label) {
+        console.log(start.toISOString(), end.toISOString(), label);
+    });
+    $('#single_cal2').daterangepicker({
+        singleDatePicker: true,
+        singleClasses: "picker_2"
+    }, function (start, end, label) {
+        console.log(start.toISOString(), end.toISOString(), label);
+    });
+    $('#single_cal3').daterangepicker({
+        singleDatePicker: true,
+        singleClasses: "picker_3"
+    }, function (start, end, label) {
+        console.log(start.toISOString(), end.toISOString(), label);
+    });
+    $('#single_cal4').daterangepicker({
+        singleDatePicker: true,
+        singleClasses: "picker_4"
+    }, function (start, end, label) {
+        console.log(start.toISOString(), end.toISOString(), label);
+    });
+
+
+}
+
+
+function init_daterangepicker_reservation() {
+
+    if (typeof ($.fn.daterangepicker) === 'undefined') { return; }
+    console.log('init_daterangepicker_reservation');
+
+    $('#reservation').daterangepicker(null, function (start, end, label) {
+        console.log(start.toISOString(), end.toISOString(), label);
+    });
+
+    $('#reservation-time').daterangepicker({
+        timePicker: true,
+        timePickerIncrement: 30,
+        locale: {
+            format: 'MM/DD/YYYY h:mm A'
+        }
+    });
+
+}
+
+/* SMART WIZARD */
+
+function init_SmartWizard() {
+
+    if (typeof ($.fn.smartWizard) === 'undefined') { return; }
+    console.log('init_SmartWizard');
+
+    $('#wizard').smartWizard();
+
+    $('#wizard_verticle').smartWizard({
+        transitionEffect: 'slide'
+    });
+
+    $('.buttonNext').addClass('btn btn-success');
+    $('.buttonPrevious').addClass('btn btn-primary');
+    $('.buttonFinish').addClass('btn btn-default');
+
+};
+
+
+/* VALIDATOR */
+
+function init_validator() {
+
+    if (typeof (validator) === 'undefined') { return; }
+    console.log('init_validator');
+
+    // initialize the validator function
+    validator.message.date = 'not a real date';
+
+    // validate a field on "blur" event, a 'select' on 'change' event & a '.reuired' classed multifield on 'keyup':
+    $('form')
+        .on('blur', 'input[required], input.optional, select.required', validator.checkField)
+        .on('change', 'select.required', validator.checkField)
+        .on('keypress', 'input[required][pattern]', validator.keypress);
+
+    $('.multi.required').on('keyup blur', 'input', function () {
+        validator.checkField.apply($(this).siblings().last()[0]);
+    });
+
+    $('form').submit(function (e) {
+        e.preventDefault();
+        var submit = true;
+
+        // evaluate the form using generic validaing
+        if (!validator.checkAll($(this))) {
+            submit = false;
+        }
+
+        if (submit)
+            this.submit();
+
+        return false;
+    });
+
+};
+
+/* PNotify */
+
+function init_PNotify() {
+
+    if (typeof (PNotify) === 'undefined') { return; }
+    console.log('init_PNotify');
+};
+
+
+/* CUSTOM NOTIFICATION */
+
+function init_CustomNotification() {
+
+    console.log('run_customtabs');
+
+    if (typeof (CustomTabs) === 'undefined') { return; }
+    console.log('init_CustomTabs');
+
+    var cnt = 10;
+
+    TabbedNotification = function (options) {
+        var message = "<div id='ntf" + cnt + "' class='text alert-" + options.type + "' style='display:none'><h2><i class='fa fa-bell'></i> " + options.title +
+            "</h2><div class='close'><a href='javascript:;' class='notification_close'><i class='fa fa-close'></i></a></div><p>" + options.text + "</p></div>";
+
+        if (!document.getElementById('custom_notifications')) {
+            alert('doesnt exists');
+        } else {
+            $('#custom_notifications ul.notifications').append("<li><a id='ntlink" + cnt + "' class='alert-" + options.type + "' href='#ntf" + cnt + "'><i class='fa fa-bell animated shake'></i></a></li>");
+            $('#custom_notifications #notif-group').append(message);
+            cnt++;
+            CustomTabs(options);
+        }
+    };
+
+    CustomTabs = function (options) {
+        $('.tabbed_notifications > div').hide();
+        $('.tabbed_notifications > div:first-of-type').show();
+        $('#custom_notifications').removeClass('dsp_none');
+        $('.notifications a').click(function (e) {
+            e.preventDefault();
+            var $this = $(this),
+                tabbed_notifications = '#' + $this.parents('.notifications').data('tabbed_notifications'),
+                others = $this.closest('li').siblings().children('a'),
+                target = $this.attr('href');
+            others.removeClass('active');
+            $this.addClass('active');
+            $(tabbed_notifications).children('div').hide();
+            $(target).show();
+        });
+    };
+
+    CustomTabs();
+
+    var tabid = idname = '';
+
+    $(document).on('click', '.notification_close', function (e) {
+        idname = $(this).parent().parent().attr("id");
+        tabid = idname.substr(-2);
+        $('#ntf' + tabid).remove();
+        $('#ntlink' + tabid).parent().remove();
+        $('.notifications a').first().addClass('active');
+        $('#notif-group div').first().css('display', 'block');
+    });
+
+};
+
+
+
+
+
+function init_charts() {
+
+    console.log('run_charts  typeof [' + typeof (Chart) + ']');
+
+    if (typeof (Chart) === 'undefined') { return; }
+
+    console.log('init_charts');
+
+
+    Chart.defaults.global.legend = {
+        enabled: false
+    };
+
+
+
+    //-----------------------------------------------------------------
+    // canvas_line2
+    //-----------------------------------------------------------------
+    if ($('#canvas_line2').length) {
+
+        var canvas_line_02 = new Chart(document.getElementById("canvas_line2"), {
+            type: 'line',
+            data: {
+                labels: [0,1,2,3,4,5,6,7,8,9,10,11],
+                datasets: [{
+                    label: "My First dataset",
+                    backgroundColor: "rgba(38, 185, 154, 0.31)",
+                    borderColor: "rgba(38, 185, 154, 0.7)",
+                    pointBorderColor: "rgba(38, 185, 154, 0.7)",
+                    pointBackgroundColor: "rgba(38, 185, 154, 0.7)",
+                    pointHoverBackgroundColor: "#fff",
+                    pointHoverBorderColor: "rgba(220,220,220,1)",
+                    pointBorderWidth: 1,
+                    pointRadius:0,
+                    data: [1.0, 1.0, 1.0, 1.0, 0.953, 0.882, 0.831, 0.747, 0.678, 0.611, 0.546]
+                }, {
+                    label: "My Second dataset",
+                    backgroundColor: "rgba(3, 88, 106, 0.3)",
+                    borderColor: "rgba(3, 88, 106, 0.70)",
+                    pointBorderColor: "rgba(3, 88, 106, 0.70)",
+                    pointBackgroundColor: "rgba(3, 88, 106, 0.70)",
+                    pointHoverBackgroundColor: "#fff",
+                    pointHoverBorderColor: "rgba(151,187,205,1)",
+                    pointBorderWidth: 1,
+                    pointRadius:0,
+                    data: [1,1,1,1,1,1,1,1,1,1,1]
+                }]
+            },
+        });
+
+    }
+
+    //-----------------------------------------------------------------
+    // canvas_line3
+    //-----------------------------------------------------------------
+    if ($('#canvas_line3').length) {
+
+        var canvas_line_03 = new Chart(document.getElementById("canvas_line3"), {
+            type: 'line',
+            data: {
+                labels: [0,1,2,3,4,5,6,7,8,9,10,11],
+                datasets: [{
+                    label: "My First dataset",
+                    backgroundColor: "rgba(38, 185, 154, 0.31)",
+                    borderColor: "rgba(38, 185, 154, 0.7)",
+                    pointBorderColor: "rgba(38, 185, 154, 0.7)",
+                    pointBackgroundColor: "rgba(38, 185, 154, 0.7)",
+                    pointHoverBackgroundColor: "#fff",
+                    pointHoverBorderColor: "rgba(220,220,220,1)",
+                    pointBorderWidth: 1,
+                    pointRadius:0,
+                    data: [0.76, 0.76, 0.735, 0.71, 0.685, 0.66, 0.638, 0.616, 0.594, 0.572, 0.55]
+                }, {
+                    label: "My Second dataset",
+                    backgroundColor: "rgba(3, 88, 106, 0.3)",
+                    borderColor: "rgba(3, 88, 106, 0.70)",
+                    pointBorderColor: "rgba(3, 88, 106, 0.70)",
+                    pointBackgroundColor: "rgba(3, 88, 106, 0.70)",
+                    pointHoverBackgroundColor: "#fff",
+                    pointHoverBorderColor: "rgba(151,187,205,1)",
+                    pointBorderWidth: 1,
+                    pointRadius:0,
+                    data: [1,1,1,1,1,1,1,1,1,1,1]
+                }]
+            },
+        });
+
+    }
+
+    //-----------------------------------------------------------------
+    // canvas_line4
+    //-----------------------------------------------------------------
+    if ($('#canvas_line4').length) {
+
+        var canvas_line_04 = new Chart(document.getElementById("canvas_line4"), {
+            type: 'line',
+            data: {
+                labels: [0,1,2,3,4,5,6,7,8,9,10,11],
+                datasets: [{
+                    label: "My First dataset",
+                    backgroundColor: "rgba(38, 185, 154, 0.31)",
+                    borderColor: "rgba(38, 185, 154, 0.7)",
+                    pointBorderColor: "rgba(38, 185, 154, 0.7)",
+                    pointBackgroundColor: "rgba(38, 185, 154, 0.7)",
+                    pointHoverBackgroundColor: "#fff",
+                    pointHoverBorderColor: "rgba(220,220,220,1)",
+                    pointBorderWidth: 1,
+                    pointRadius:0,
+                    data: [0.71, 0.71, 0.67, 0.627, 0.583, 0.537, 0.485, 0.433, 0.393, 0.366, 0.348]
+                }, {
+                    label: "My Second dataset",
+                    backgroundColor: "rgba(3, 88, 106, 0.3)",
+                    borderColor: "rgba(3, 88, 106, 0.70)",
+                    pointBorderColor: "rgba(3, 88, 106, 0.70)",
+                    pointBackgroundColor: "rgba(3, 88, 106, 0.70)",
+                    pointHoverBackgroundColor: "#fff",
+                    pointHoverBorderColor: "rgba(151,187,205,1)",
+                    pointBorderWidth: 1,
+                    pointRadius:0,
+                    data: [1,1,1,1,1,1,1,1,1,1,1]
+                }]
+            },
+        });
+
+    }
+
+
+    // Line chart
+
+    if ($('#lineChart').length) {
+
+        var ctx = document.getElementById("lineChart");
+        var lineChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ["January", "February", "March", "April", "May", "June", "July"],
+                datasets: [{
+                    label: "My First dataset",
+                    backgroundColor: "rgba(38, 185, 154, 0.31)",
+                    borderColor: "rgba(38, 185, 154, 0.7)",
+                    pointBorderColor: "rgba(38, 185, 154, 0.7)",
+                    pointBackgroundColor: "rgba(38, 185, 154, 0.7)",
+                    pointHoverBackgroundColor: "#fff",
+                    pointHoverBorderColor: "rgba(220,220,220,1)",
+                    pointBorderWidth: 1,
+                    data: [31, 74, 6, 39, 20, 85, 7]
+                }, {
+                    label: "My Second dataset",
+                    backgroundColor: "rgba(3, 88, 106, 0.3)",
+                    borderColor: "rgba(3, 88, 106, 0.70)",
+                    pointBorderColor: "rgba(3, 88, 106, 0.70)",
+                    pointBackgroundColor: "rgba(3, 88, 106, 0.70)",
+                    pointHoverBackgroundColor: "#fff",
+                    pointHoverBorderColor: "rgba(151,187,205,1)",
+                    pointBorderWidth: 1,
+                    data: [82, 23, 66, 9, 99, 4, 2]
+                }]
+            },
+        });
+
+    }
+
+    // Bar chart
+
+    if ($('#mybarChart').length) {
+
+        var ctx = document.getElementById("mybarChart");
+        var mybarChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ["January", "February", "March", "April", "May", "June", "July"],
+                datasets: [{
+                    label: '# of Votes',
+                    backgroundColor: "#26B99A",
+                    data: [51, 30, 40, 28, 92, 50, 45]
+                }, {
+                    label: '# of Votes',
+                    backgroundColor: "#03586A",
+                    data: [41, 56, 25, 48, 72, 34, 12]
+                }]
+            },
+
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        });
+
+    }
+
+
+    // Doughnut chart
+
+    if ($('#canvasDoughnut').length) {
+
+        var ctx = document.getElementById("canvasDoughnut");
+        var data = {
+            labels: [
+                "Dark Grey",
+                "Purple Color",
+                "Gray Color",
+                "Green Color",
+                "Blue Color"
+            ],
+            datasets: [{
+                data: [120, 50, 140, 180, 100],
+                backgroundColor: [
+                    "#455C73",
+                    "#9B59B6",
+                    "#BDC3C7",
+                    "#26B99A",
+                    "#3498DB"
+                ],
+                hoverBackgroundColor: [
+                    "#34495E",
+                    "#B370CF",
+                    "#CFD4D8",
+                    "#36CAAB",
+                    "#49A9EA"
+                ]
+
+            }]
+        };
+
+        var canvasDoughnut = new Chart(ctx, {
+            type: 'doughnut',
+            tooltipFillColor: "rgba(51, 51, 51, 0.55)",
+            data: data
+        });
+
+    }
+
+    // Radar chart
+
+    if ($('#canvasRadar').length) {
+
+        var ctx = document.getElementById("canvasRadar");
+        var data = {
+            labels: ["Eating", "Drinking", "Sleeping", "Designing", "Coding", "Cycling", "Running"],
+            datasets: [{
+                label: "My First dataset",
+                backgroundColor: "rgba(3, 88, 106, 0.2)",
+                borderColor: "rgba(3, 88, 106, 0.80)",
+                pointBorderColor: "rgba(3, 88, 106, 0.80)",
+                pointBackgroundColor: "rgba(3, 88, 106, 0.80)",
+                pointHoverBackgroundColor: "#fff",
+                pointHoverBorderColor: "rgba(220,220,220,1)",
+                data: [65, 59, 90, 81, 56, 55, 40]
+            }, {
+                label: "My Second dataset",
+                backgroundColor: "rgba(38, 185, 154, 0.2)",
+                borderColor: "rgba(38, 185, 154, 0.85)",
+                pointColor: "rgba(38, 185, 154, 0.85)",
+                pointStrokeColor: "#fff",
+                pointHighlightFill: "#fff",
+                pointHighlightStroke: "rgba(151,187,205,1)",
+                data: [28, 48, 40, 19, 96, 27, 100]
+            }]
+        };
+
+        var canvasRadar = new Chart(ctx, {
+            type: 'radar',
+            data: data,
+        });
+
+    }
+
+
+    // Pie chart
+    if ($('#pieChart').length) {
+
+        var ctx = document.getElementById("pieChart");
+        var data = {
+            datasets: [{
+                data: [120, 50, 140, 180, 100],
+                backgroundColor: [
+                    "#455C73",
+                    "#9B59B6",
+                    "#BDC3C7",
+                    "#26B99A",
+                    "#3498DB"
+                ],
+                label: 'My dataset' // for legend
+            }],
+            labels: [
+                "Dark Gray",
+                "Purple",
+                "Gray",
+                "Green",
+                "Blue"
+            ]
+        };
+
+        var pieChart = new Chart(ctx, {
+            data: data,
+            type: 'pie',
+            otpions: {
+                legend: false
+            }
+        });
+
+    }
+
+
+    // PolarArea chart
+
+    if ($('#polarArea').length) {
+
+        var ctx = document.getElementById("polarArea");
+        var data = {
+            datasets: [{
+                data: [120, 50, 140, 180, 100],
+                backgroundColor: [
+                    "#455C73",
+                    "#9B59B6",
+                    "#BDC3C7",
+                    "#26B99A",
+                    "#3498DB"
+                ],
+                label: 'My dataset'
+            }],
+            labels: [
+                "Dark Gray",
+                "Purple",
+                "Gray",
+                "Green",
+                "Blue"
+            ]
+        };
+
+        var polarArea = new Chart(ctx, {
+            data: data,
+            type: 'polarArea',
+            options: {
+                scale: {
+                    ticks: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+    }
+}
+
+/* COMPOSE */
+
+function init_compose() {
+
+    if (typeof ($.fn.slideToggle) === 'undefined') { return; }
+    console.log('init_compose');
+
+    $('#compose, .compose-close').click(function () {
+        $('.compose').slideToggle();
+    });
+
+};
+
+/* CALENDAR */
+
+function init_calendar() {
+
+    if (typeof ($.fn.fullCalendar) === 'undefined') { return; }
+    console.log('init_calendar');
+
+    var date = new Date(),
+        d = date.getDate(),
+        m = date.getMonth(),
+        y = date.getFullYear(),
+        started,
+        categoryClass;
+
+    var calendar = $('#calendar').fullCalendar({
+        header: {
+            left: 'prev,next today',
+            center: 'title',
+            right: 'month,agendaWeek,agendaDay,listMonth'
+        },
+        selectable: true,
+        selectHelper: true,
+        select: function (start, end, allDay) {
+            $('#fc_create').click();
+
+            started = start;
+            ended = end;
+
+            $(".antosubmit").on("click", function () {
+                var title = $("#title").val();
+                if (end) {
+                    ended = end;
+                }
+
+                categoryClass = $("#event_type").val();
+
+                if (title) {
+                    calendar.fullCalendar('renderEvent', {
+                        title: title,
+                        start: started,
+                        end: end,
+                        allDay: allDay
+                    },
+                        true // make the event "stick"
+                    );
+                }
+
+                $('#title').val('');
+
+                calendar.fullCalendar('unselect');
+
+                $('.antoclose').click();
+
+                return false;
+            });
+        },
+        eventClick: function (calEvent, jsEvent, view) {
+            $('#fc_edit').click();
+            $('#title2').val(calEvent.title);
+
+            categoryClass = $("#event_type").val();
+
+            $(".antosubmit2").on("click", function () {
+                calEvent.title = $("#title2").val();
+
+                calendar.fullCalendar('updateEvent', calEvent);
+                $('.antoclose2').click();
+            });
+
+            calendar.fullCalendar('unselect');
+        },
+        editable: true,
+        events: [{
+            title: 'All Day Event',
+            start: new Date(y, m, 1)
+        }, {
+            title: 'Long Event',
+            start: new Date(y, m, d - 5),
+            end: new Date(y, m, d - 2)
+        }, {
+            title: 'Meeting',
+            start: new Date(y, m, d, 10, 30),
+            allDay: false
+        }, {
+            title: 'Lunch',
+            start: new Date(y, m, d + 14, 12, 0),
+            end: new Date(y, m, d, 14, 0),
+            allDay: false
+        }, {
+            title: 'Birthday Party',
+            start: new Date(y, m, d + 1, 19, 0),
+            end: new Date(y, m, d + 1, 22, 30),
+            allDay: false
+        }, {
+            title: 'Click for Google',
+            start: new Date(y, m, 28),
+            end: new Date(y, m, 29),
+            url: 'http://google.com/'
+        }]
+    });
+
+};
+
+/* DATA TABLES */
+
+function init_DataTables() {
+
+    console.log('run_datatables');
+
+    if (typeof ($.fn.DataTable) === 'undefined') { return; }
+    console.log('init_DataTables');
+
+    var handleDataTableButtons = function () {
+        if ($("#datatable-buttons").length) {
+            $("#datatable-buttons").DataTable({
+                dom: "Blfrtip",
+                buttons: [
+                    {
+                        extend: "copy",
+                        className: "btn-sm"
+                    },
+                    {
+                        extend: "csv",
+                        className: "btn-sm"
+                    },
+                    {
+                        extend: "excel",
+                        className: "btn-sm"
+                    },
+                    {
+                        extend: "pdfHtml5",
+                        className: "btn-sm"
+                    },
+                    {
+                        extend: "print",
+                        className: "btn-sm"
+                    },
+                ],
+                responsive: true
+            });
+        }
+    };
+
+    TableManageButtons = function () {
+        "use strict";
+        return {
+            init: function () {
+                handleDataTableButtons();
+            }
+        };
+    }();
+
+    $('#datatable').dataTable();
+
+    $('#datatable-keytable').DataTable({
+        keys: true
+    });
+
+    $('#datatable-responsive').DataTable();
+
+    $('#datatable-scroller').DataTable({
+        ajax: "js/datatables/json/scroller-demo.json",
+        deferRender: true,
+        scrollY: 380,
+        scrollCollapse: true,
+        scroller: true
+    });
+
+    $('#datatable-fixed-header').DataTable({
+        fixedHeader: true
+    });
+
+    var $datatable = $('#datatable-checkbox');
+
+    $datatable.dataTable({
+        'order': [[1, 'asc']],
+        'columnDefs': [
+            { orderable: false, targets: [0] }
+        ]
+    });
+    $datatable.on('draw.dt', function () {
+        $('checkbox input').iCheck({
+            checkboxClass: 'icheckbox_flat-green'
+        });
+    });
+
+    TableManageButtons.init();
+
+};
+
+/* CHART - MORRIS  */
+
+function init_morris_charts() {
+
+    if (typeof (Morris) === 'undefined') { return; }
+    console.log('init_morris_charts');
+
+    if ($('#graph_bar').length) {
+
+        Morris.Bar({
+            element: 'graph_bar',
+            data: [
+                { device: 'iPhone 4', geekbench: 380 },
+                { device: 'iPhone 4S', geekbench: 655 },
+                { device: 'iPhone 3GS', geekbench: 275 },
+                { device: 'iPhone 5', geekbench: 1571 },
+                { device: 'iPhone 5S', geekbench: 655 },
+                { device: 'iPhone 6', geekbench: 2154 },
+                { device: 'iPhone 6 Plus', geekbench: 1144 },
+                { device: 'iPhone 6S', geekbench: 2371 },
+                { device: 'iPhone 6S Plus', geekbench: 1471 },
+                { device: 'Other', geekbench: 1371 }
+            ],
+            xkey: 'device',
+            ykeys: ['geekbench'],
+            labels: ['Geekbench'],
+            barRatio: 0.4,
+            barColors: ['#26B99A', '#34495E', '#ACADAC', '#3498DB'],
+            xLabelAngle: 35,
+            hideHover: 'auto',
+            resize: true
+        });
+
+    }
+
+    if ($('#graph_bar_group').length) {
+
+        Morris.Bar({
+            element: 'graph_bar_group',
+            data: [
+                { "period": "2016-10-01", "licensed": 807, "sorned": 660 },
+                { "period": "2016-09-30", "licensed": 1251, "sorned": 729 },
+                { "period": "2016-09-29", "licensed": 1769, "sorned": 1018 },
+                { "period": "2016-09-20", "licensed": 2246, "sorned": 1461 },
+                { "period": "2016-09-19", "licensed": 2657, "sorned": 1967 },
+                { "period": "2016-09-18", "licensed": 3148, "sorned": 2627 },
+                { "period": "2016-09-17", "licensed": 3471, "sorned": 3740 },
+                { "period": "2016-09-16", "licensed": 2871, "sorned": 2216 },
+                { "period": "2016-09-15", "licensed": 2401, "sorned": 1656 },
+                { "period": "2016-09-10", "licensed": 2115, "sorned": 1022 }
+            ],
+            xkey: 'period',
+            barColors: ['#26B99A', '#34495E', '#ACADAC', '#3498DB'],
+            ykeys: ['licensed', 'sorned'],
+            labels: ['Licensed', 'SORN'],
+            hideHover: 'auto',
+            xLabelAngle: 60,
+            resize: true
+        });
+
+    }
+
+    if ($('#graphx').length) {
+
+        Morris.Bar({
+            element: 'graphx',
+            data: [
+                { x: '2015 Q1', y: 2, z: 3, a: 4 },
+                { x: '2015 Q2', y: 3, z: 5, a: 6 },
+                { x: '2015 Q3', y: 4, z: 3, a: 2 },
+                { x: '2015 Q4', y: 2, z: 4, a: 5 }
+            ],
+            xkey: 'x',
+            ykeys: ['y', 'z', 'a'],
+            barColors: ['#26B99A', '#34495E', '#ACADAC', '#3498DB'],
+            hideHover: 'auto',
+            labels: ['Y', 'Z', 'A'],
+            resize: true
+        }).on('click', function (i, row) {
+            console.log(i, row);
+        });
+
+    }
+
+    if ($('#graph_area').length) {
+
+        Morris.Area({
+            element: 'graph_area',
+            data: [
+                { period: '2014 Q1', iphone: 2666, ipad: null, itouch: 2647 },
+                { period: '2014 Q2', iphone: 2778, ipad: 2294, itouch: 2441 },
+                { period: '2014 Q3', iphone: 4912, ipad: 1969, itouch: 2501 },
+                { period: '2014 Q4', iphone: 3767, ipad: 3597, itouch: 5689 },
+                { period: '2015 Q1', iphone: 6810, ipad: 1914, itouch: 2293 },
+                { period: '2015 Q2', iphone: 5670, ipad: 4293, itouch: 1881 },
+                { period: '2015 Q3', iphone: 4820, ipad: 3795, itouch: 1588 },
+                { period: '2015 Q4', iphone: 15073, ipad: 5967, itouch: 5175 },
+                { period: '2016 Q1', iphone: 10687, ipad: 4460, itouch: 2028 },
+                { period: '2016 Q2', iphone: 8432, ipad: 5713, itouch: 1791 }
+            ],
+            xkey: 'period',
+            ykeys: ['iphone', 'ipad', 'itouch'],
+            lineColors: ['#26B99A', '#34495E', '#ACADAC', '#3498DB'],
+            labels: ['iPhone', 'iPad', 'iPod Touch'],
+            pointSize: 2,
+            hideHover: 'auto',
+            resize: true
+        });
+
+    }
+
+    if ($('#graph_donut').length) {
+
+        Morris.Donut({
+            element: 'graph_donut',
+            data: [
+                { label: 'Jam', value: 25 },
+                { label: 'Frosted', value: 40 },
+                { label: 'Custard', value: 25 },
+                { label: 'Sugar', value: 10 }
+            ],
+            colors: ['#26B99A', '#34495E', '#ACADAC', '#3498DB'],
+            formatter: function (y) {
+                return y + "%";
+            },
+            resize: true
+        });
+
+    }
+
+    if ($('#graph_line').length) {
+
+        Morris.Line({
+            element: 'graph_line',
+            xkey: 'year',
+            ykeys: ['value'],
+            labels: ['Value'],
+            hideHover: 'auto',
+            lineColors: ['#26B99A', '#34495E', '#ACADAC', '#3498DB'],
+            data: [
+                { year: '2012', value: 20 },
+                { year: '2013', value: 10 },
+                { year: '2014', value: 5 },
+                { year: '2015', value: 5 },
+                { year: '2020', value: 20 }
+            ],
+            resize: true
+        });
+
+        $MENU_TOGGLE.on('click', function () {
+            $(window).resize();
+        });
+
+    }
+
+};
+
+
+
+/* ECHRTS */
+
+
+function init_echarts() {
+
+    if (typeof (echarts) === 'undefined') { return; }
+    console.log('init_echarts');
+
+
+    var theme = {
+        color: [
+            '#26B99A', '#34495E', '#BDC3C7', '#3498DB',
+            '#9B59B6', '#8abb6f', '#759c6a', '#bfd3b7'
+        ],
+
+        title: {
+            itemGap: 8,
+            textStyle: {
+                fontWeight: 'normal',
+                color: '#408829'
+            }
+        },
+
+        dataRange: {
+            color: ['#1f610a', '#97b58d']
+        },
+
+        toolbox: {
+            color: ['#408829', '#408829', '#408829', '#408829']
+        },
+
+        tooltip: {
+            backgroundColor: 'rgba(0,0,0,0.5)',
+            axisPointer: {
+                type: 'line',
+                lineStyle: {
+                    color: '#408829',
+                    type: 'dashed'
+                },
+                crossStyle: {
+                    color: '#408829'
+                },
+                shadowStyle: {
+                    color: 'rgba(200,200,200,0.3)'
+                }
+            }
+        },
+
+        dataZoom: {
+            dataBackgroundColor: '#eee',
+            fillerColor: 'rgba(64,136,41,0.2)',
+            handleColor: '#408829'
+        },
+        grid: {
+            borderWidth: 0
+        },
+
+        categoryAxis: {
+            axisLine: {
+                lineStyle: {
+                    color: '#408829'
+                }
+            },
+            splitLine: {
+                lineStyle: {
+                    color: ['#eee']
+                }
+            }
+        },
+
+        valueAxis: {
+            axisLine: {
+                lineStyle: {
+                    color: '#408829'
+                }
+            },
+            splitArea: {
+                show: true,
+                areaStyle: {
+                    color: ['rgba(250,250,250,0.1)', 'rgba(200,200,200,0.1)']
+                }
+            },
+            splitLine: {
+                lineStyle: {
+                    color: ['#eee']
+                }
+            }
+        },
+        timeline: {
+            lineStyle: {
+                color: '#408829'
+            },
+            controlStyle: {
+                normal: { color: '#408829' },
+                emphasis: { color: '#408829' }
+            }
+        },
+
+        k: {
+            itemStyle: {
+                normal: {
+                    color: '#68a54a',
+                    color0: '#a9cba2',
+                    lineStyle: {
+                        width: 1,
+                        color: '#408829',
+                        color0: '#86b379'
+                    }
+                }
+            }
+        },
+        map: {
+            itemStyle: {
+                normal: {
+                    areaStyle: {
+                        color: '#ddd'
+                    },
+                    label: {
+                        textStyle: {
+                            color: '#c12e34'
+                        }
+                    }
+                },
+                emphasis: {
+                    areaStyle: {
+                        color: '#99d2dd'
+                    },
+                    label: {
+                        textStyle: {
+                            color: '#c12e34'
+                        }
+                    }
+                }
+            }
+        },
+        force: {
+            itemStyle: {
+                normal: {
+                    linkStyle: {
+                        strokeColor: '#408829'
+                    }
+                }
+            }
+        },
+        chord: {
+            padding: 4,
+            itemStyle: {
+                normal: {
+                    lineStyle: {
+                        width: 1,
+                        color: 'rgba(128, 128, 128, 0.5)'
+                    },
+                    chordStyle: {
+                        lineStyle: {
+                            width: 1,
+                            color: 'rgba(128, 128, 128, 0.5)'
+                        }
+                    }
+                },
+                emphasis: {
+                    lineStyle: {
+                        width: 1,
+                        color: 'rgba(128, 128, 128, 0.5)'
+                    },
+                    chordStyle: {
+                        lineStyle: {
+                            width: 1,
+                            color: 'rgba(128, 128, 128, 0.5)'
+                        }
+                    }
+                }
+            }
+        },
+        gauge: {
+            startAngle: 225,
+            endAngle: -45,
+            axisLine: {
+                show: true,
+                lineStyle: {
+                    color: [[0.2, '#86b379'], [0.8, '#68a54a'], [1, '#408829']],
+                    width: 8
+                }
+            },
+            axisTick: {
+                splitNumber: 10,
+                length: 12,
+                lineStyle: {
+                    color: 'auto'
+                }
+            },
+            axisLabel: {
+                textStyle: {
+                    color: 'auto'
+                }
+            },
+            splitLine: {
+                length: 18,
+                lineStyle: {
+                    color: 'auto'
+                }
+            },
+            pointer: {
+                length: '90%',
+                color: 'auto'
+            },
+            title: {
+                textStyle: {
+                    color: '#333'
+                }
+            },
+            detail: {
+                textStyle: {
+                    color: 'auto'
+                }
+            }
+        },
+        textStyle: {
+            fontFamily: 'Arial, Verdana, sans-serif'
+        }
+    };
+
+
+    //echart Bar
+
+    if ($('#mainb').length) {
+
+        var echartBar = echarts.init(document.getElementById('mainb'), theme);
+
+        echartBar.setOption({
+            title: {
+                text: 'Graph title',
+                subtext: 'Graph Sub-text'
+            },
+            tooltip: {
+                trigger: 'axis'
+            },
+            legend: {
+                data: ['sales', 'purchases']
+            },
+            toolbox: {
+                show: false
+            },
+            calculable: false,
+            xAxis: [{
+                type: 'category',
+                data: ['1?', '2?', '3?', '4?', '5?', '6?', '7?', '8?', '9?', '10?', '11?', '12?']
+            }],
+            yAxis: [{
+                type: 'value'
+            }],
+            series: [{
+                name: 'sales',
+                type: 'bar',
+                data: [2.0, 4.9, 7.0, 23.2, 25.6, 76.7, 135.6, 162.2, 32.6, 20.0, 6.4, 3.3],
+                markPoint: {
+                    data: [{
+                        type: 'max',
+                        name: '???'
+                    }, {
+                        type: 'min',
+                        name: '???'
+                    }]
+                },
+                markLine: {
+                    data: [{
+                        type: 'average',
+                        name: '???'
+                    }]
+                }
+            }, {
+                name: 'purchases',
+                type: 'bar',
+                data: [2.6, 5.9, 9.0, 26.4, 28.7, 70.7, 175.6, 182.2, 48.7, 18.8, 6.0, 2.3],
+                markPoint: {
+                    data: [{
+                        name: 'sales',
+                        value: 182.2,
+                        xAxis: 7,
+                        yAxis: 183,
+                    }, {
+                        name: 'purchases',
+                        value: 2.3,
+                        xAxis: 11,
+                        yAxis: 3
+                    }]
+                },
+                markLine: {
+                    data: [{
+                        type: 'average',
+                        name: '???'
+                    }]
+                }
+            }]
+        });
+
+    }
+
+
+
+
+    //echart Radar
+
+    if ($('#echart_sonar').length) {
+
+        var echartRadar = echarts.init(document.getElementById('echart_sonar'), theme);
+
+        echartRadar.setOption({
+            title: {
+                text: 'Budget vs spending',
+                subtext: 'Subtitle'
+            },
+            tooltip: {
+                trigger: 'item'
+            },
+            legend: {
+                orient: 'vertical',
+                x: 'right',
+                y: 'bottom',
+                data: ['Allocated Budget', 'Actual Spending']
+            },
+            toolbox: {
+                show: true,
+                feature: {
+                    restore: {
+                        show: true,
+                        title: "Restore"
+                    },
+                    saveAsImage: {
+                        show: true,
+                        title: "Save Image"
+                    }
+                }
+            },
+            polar: [{
+                indicator: [{
+                    text: 'Sales',
+                    max: 6000
+                }, {
+                    text: 'Administration',
+                    max: 16000
+                }, {
+                    text: 'Information Techology',
+                    max: 30000
+                }, {
+                    text: 'Customer Support',
+                    max: 38000
+                }, {
+                    text: 'Development',
+                    max: 52000
+                }, {
+                    text: 'Marketing',
+                    max: 25000
+                }]
+            }],
+            calculable: true,
+            series: [{
+                name: 'Budget vs spending',
+                type: 'radar',
+                data: [{
+                    value: [4300, 10000, 28000, 35000, 50000, 19000],
+                    name: 'Allocated Budget'
+                }, {
+                    value: [5000, 14000, 28000, 31000, 42000, 21000],
+                    name: 'Actual Spending'
+                }]
+            }]
+        });
+
+    }
+
+    //echart Funnel
+
+    if ($('#echart_pyramid').length) {
+
+        var echartFunnel = echarts.init(document.getElementById('echart_pyramid'), theme);
+
+        echartFunnel.setOption({
+            title: {
+                text: 'Echart Pyramid Graph',
+                subtext: 'Subtitle'
+            },
+            tooltip: {
+                trigger: 'item',
+                formatter: "{a} <br/>{b} : {c}%"
+            },
+            toolbox: {
+                show: true,
+                feature: {
+                    restore: {
+                        show: true,
+                        title: "Restore"
+                    },
+                    saveAsImage: {
+                        show: true,
+                        title: "Save Image"
+                    }
+                }
+            },
+            legend: {
+                data: ['Something #1', 'Something #2', 'Something #3', 'Something #4', 'Something #5'],
+                orient: 'vertical',
+                x: 'left',
+                y: 'bottom'
+            },
+            calculable: true,
+            series: [{
+                name: '漏斗图',
+                type: 'funnel',
+                width: '40%',
+                data: [{
+                    value: 60,
+                    name: 'Something #1'
+                }, {
+                    value: 40,
+                    name: 'Something #2'
+                }, {
+                    value: 20,
+                    name: 'Something #3'
+                }, {
+                    value: 80,
+                    name: 'Something #4'
+                }, {
+                    value: 100,
+                    name: 'Something #5'
+                }]
+            }]
+        });
+
+    }
+
+    //echart Gauge
+
+    if ($('#echart_gauge').length) {
+
+        var echartGauge = echarts.init(document.getElementById('echart_gauge'), theme);
+
+        echartGauge.setOption({
+            tooltip: {
+                formatter: "{a} <br/>{b} : {c}%"
+            },
+            toolbox: {
+                show: true,
+                feature: {
+                    restore: {
+                        show: true,
+                        title: "Restore"
+                    },
+                    saveAsImage: {
+                        show: true,
+                        title: "Save Image"
+                    }
+                }
+            },
+            series: [{
+                name: 'Performance',
+                type: 'gauge',
+                center: ['50%', '50%'],
+                startAngle: 140,
+                endAngle: -140,
+                min: 0,
+                max: 100,
+                precision: 0,
+                splitNumber: 10,
+                axisLine: {
+                    show: true,
+                    lineStyle: {
+                        color: [
+                            [0.2, 'lightgreen'],
+                            [0.4, 'orange'],
+                            [0.8, 'skyblue'],
+                            [1, '#ff4500']
+                        ],
+                        width: 30
+                    }
+                },
+                axisTick: {
+                    show: true,
+                    splitNumber: 5,
+                    length: 8,
+                    lineStyle: {
+                        color: '#eee',
+                        width: 1,
+                        type: 'solid'
+                    }
+                },
+                axisLabel: {
+                    show: true,
+                    formatter: function (v) {
+                        switch (v + '') {
+                            case '10':
+                                return 'a';
+                            case '30':
+                                return 'b';
+                            case '60':
+                                return 'c';
+                            case '90':
+                                return 'd';
+                            default:
+                                return '';
+                        }
+                    },
+                    textStyle: {
+                        color: '#333'
+                    }
+                },
+                splitLine: {
+                    show: true,
+                    length: 30,
+                    lineStyle: {
+                        color: '#eee',
+                        width: 2,
+                        type: 'solid'
+                    }
+                },
+                pointer: {
+                    length: '80%',
+                    width: 8,
+                    color: 'auto'
+                },
+                title: {
+                    show: true,
+                    offsetCenter: ['-65%', -10],
+                    textStyle: {
+                        color: '#333',
+                        fontSize: 15
+                    }
+                },
+                detail: {
+                    show: true,
+                    backgroundColor: 'rgba(0,0,0,0)',
+                    borderWidth: 0,
+                    borderColor: '#ccc',
+                    width: 100,
+                    height: 40,
+                    offsetCenter: ['-60%', 10],
+                    formatter: '{value}%',
+                    textStyle: {
+                        color: 'auto',
+                        fontSize: 30
+                    }
+                },
+                data: [{
+                    value: 50,
+                    name: 'Performance'
+                }]
+            }]
+        });
+
+    }
+
+    //echart Line
+
+    if ($('#echart_line').length) {
+
+        var echartLine = echarts.init(document.getElementById('echart_line'), theme);
+
+        echartLine.setOption({
+            title: {
+                text: 'Line Graph',
+                subtext: 'Subtitle'
+            },
+            tooltip: {
+                trigger: 'axis'
+            },
+            legend: {
+                x: 220,
+                y: 40,
+                data: ['Intent', 'Pre-order', 'Deal']
+            },
+            toolbox: {
+                show: true,
+                feature: {
+                    magicType: {
+                        show: true,
+                        title: {
+                            line: 'Line',
+                            bar: 'Bar',
+                            stack: 'Stack',
+                            tiled: 'Tiled'
+                        },
+                        type: ['line', 'bar', 'stack', 'tiled']
+                    },
+                    restore: {
+                        show: true,
+                        title: "Restore"
+                    },
+                    saveAsImage: {
+                        show: true,
+                        title: "Save Image"
+                    }
+                }
+            },
+            calculable: true,
+            xAxis: [{
+                type: 'category',
+                boundaryGap: false,
+                data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+            }],
+            yAxis: [{
+                type: 'value'
+            }],
+            series: [{
+                name: 'Deal',
+                type: 'line',
+                smooth: true,
+                itemStyle: {
+                    normal: {
+                        areaStyle: {
+                            type: 'default'
+                        }
+                    }
+                },
+                data: [10, 12, 21, 54, 260, 830, 710]
+            }, {
+                name: 'Pre-order',
+                type: 'line',
+                smooth: true,
+                itemStyle: {
+                    normal: {
+                        areaStyle: {
+                            type: 'default'
+                        }
+                    }
+                },
+                data: [30, 182, 434, 791, 390, 30, 10]
+            }, {
+                name: 'Intent',
+                type: 'line',
+                smooth: true,
+                itemStyle: {
+                    normal: {
+                        areaStyle: {
+                            type: 'default'
+                        }
+                    }
+                },
+                data: [1320, 1132, 601, 234, 120, 90, 20]
+            }]
+        });
+
+    }
+
+
+    //---------------------------------------------------------------------------------------
+    //echart Scatter
+    //---------------------------------------------------------------------------------------
+    if ($('#echart_scatter').length) {
+
+        var echartScatter = echarts.init(document.getElementById('echart_scatter'), theme);
+
+        echartScatter.setOption({
+            tooltip: {
+                trigger: 'axis',
+                showDelay: 0,
+                axisPointer: {
+                    type: 'cross',
+                    lineStyle: {
+                        type: 'dashed',
+                        width: 1
+                    }
+                }
+            },
+            legend: {
+                data: ['공격형', '중립형', '방어형']
+            },
+            toolbox: {
+                show: true,
+                feature: {
+                    saveAsImage: {
+                        show: true,
+                        title: "Save Image"
+                    }
+                }
+            },
+            xAxis: [{
+                type: 'value',
+                scale: true,
+                axisLabel: {
+                    formatter: '{value}'
+                }
+            }],
+            yAxis: [{
+                type: 'value',
+                scale: true,
+                axisLabel: {
+                    formatter: '{value} %'
+                }
+            }],
+            series: [{
+                name: '공격형',
+                type: 'scatter',
+                tooltip: {
+                    trigger: 'item',
+                    formatter: function (params) {
+                        if (params.value.length > 1) {
+                            return params.seriesName + ' :<br/>' + params.value[0]  + params.value[1] + '% ';
+                        } else {
+                            return params.seriesName + ' :<br/>' + params.name + ' : ' + params.value + '% ';
+                        }
+                    }
+                },
+                data: [[0.1, 335.162381],
+[0.2, 328.061044],
+[0.3, 318.947777],
+[0.4, 309.170929],
+[0.5, 299.465936],
+[0.6, 290.041954],
+[0.7, 281.030470],
+[0.8, 272.314878],
+[0.9, 263.779641],
+[0.1, 333.424543],
+[0.2, 319.524638],
+[0.3, 301.809303],
+[0.4, 283.695763],
+[0.5, 266.891464],
+[0.6, 252.045738],
+[0.7, 239.320930],
+[0.8, 228.569289],
+[0.9, 219.416491],
+[0.1, 321.661766],
+[0.2, 309.656094],
+[0.3, 300.672097],
+[0.4, 293.769562],
+[0.5, 288.249540],
+[0.6, 283.564131],
+[0.7, 279.304833],
+[0.8, 275.249038],
+[0.9, 271.307602],
+[0.1, 331.989879],
+[0.2, 329.133495],
+[0.3, 328.429858],
+[0.4, 328.794035],
+[0.5, 329.548428],
+[0.6, 330.302858],
+[0.7, 330.983927],
+[0.8, 331.708666],
+[0.9, 332.709005],
+[0.1, 346.573120],
+[0.2, 351.820389],
+[0.3, 356.205995],
+[0.4, 360.228642],
+[0.5, 364.148527],
+[0.6, 368.249287],
+[0.7, 372.665613],
+[0.8, 377.615780],
+[0.9, 383.245192],
+[0.1, 354.379637],
+[0.2, 365.608647],
+[0.3, 374.268133],
+[0.4, 380.876905],
+[0.5, 385.866148],
+[0.6, 389.538874],
+[0.7, 392.153148],
+[0.8, 393.807699],
+[0.9, 394.539948],
+[0.1, 348.050276],
+[0.2, 353.693557],
+[0.3, 357.810445],
+[0.4, 360.760743],
+[0.5, 362.823539],
+[0.6, 364.260819],
+[0.7, 365.384274],
+[0.8, 366.359637],
+[0.9, 367.481701],
+[0.1, 345.731589],
+[0.2, 348.832944],
+[0.3, 348.875732],
+[0.4, 347.079508],
+[0.5, 344.064133],
+[0.6, 340.133390],
+[0.7, 335.492541],
+[0.8, 330.277512],
+[0.9, 324.553882],
+[0.1, 339.909443],
+[0.2, 337.515198],
+[0.3, 332.031563],
+[0.4, 324.891430],
+[0.5, 317.190051],
+[0.6, 309.627896],
+[0.7, 302.676793],
+[0.8, 296.567500],
+[0.9, 291.340167],
+[0.1, 354.139166],
+[0.2, 364.040117],
+[0.3, 369.860979],
+[0.4, 372.950741],
+[0.5, 374.286211],
+[0.6, 374.519405],
+[0.7, 373.994153],
+[0.8, 372.841714],
+[0.9, 371.004897],
+[0.1, 348.213045],
+[0.2, 350.857230],
+[0.3, 349.135299],
+[0.4, 345.051790],
+[0.5, 340.074656],
+[0.6, 335.191795],
+[0.7, 330.975481],
+[0.8, 327.795165],
+[0.9, 325.772946],
+[0.1, 354.218428],
+[0.2, 368.665146],
+[0.3, 380.897171],
+[0.4, 390.948093],
+[0.5, 398.983052],
+[0.6, 405.145302],
+[0.7, 409.659646],
+[0.8, 412.713241],
+[0.9, 414.565951],
+[0.1, 356.968458],
+[0.2, 371.931454],
+[0.3, 383.882367],
+[0.4, 393.627509],
+[0.5, 401.737727],
+[0.6, 408.700921],
+[0.7, 414.868000],
+[0.8, 420.415923],
+[0.9, 425.369559],
+[0.1, 353.967374],
+[0.2, 367.636508],
+[0.3, 379.322031],
+[0.4, 388.980382],
+[0.5, 396.503018],
+[0.6, 401.917115],
+[0.7, 405.180154],
+[0.8, 406.294251],
+[0.9, 405.284932],
+[0.1, 348.462192],
+[0.2, 355.854422],
+[0.3, 359.793163],
+[0.4, 361.277373],
+[0.5, 361.127241],
+[0.6, 359.967230],
+[0.7, 358.295185],
+[0.8, 356.469554],
+[0.9, 354.712690],
+[0.1, 357.040901],
+[0.2, 371.907913],
+[0.3, 385.406833],
+[0.4, 399.556202],
+[0.5, 415.354091],
+[0.6, 433.120673],
+[0.7, 452.764731],
+[0.8, 474.012934],
+[0.9, 496.269584],
+[0.1, 359.917826],
+[0.2, 375.808083],
+[0.3, 384.752341],
+[0.4, 387.574059],
+[0.5, 385.507980],
+[0.6, 379.844372],
+[0.7, 371.901736],
+[0.8, 362.879316],
+[0.9, 353.888564],
+[0.1, 371.230175],
+[0.2, 401.184687],
+[0.3, 426.545293],
+[0.4, 446.787943],
+[0.5, 461.648647],
+[0.6, 471.024855],
+[0.7, 475.067069],
+[0.8, 474.043531],
+[0.9, 468.374108],
+[0.1, 363.850704],
+[0.2, 388.848360],
+[0.3, 413.151231],
+[0.4, 436.488109],
+[0.5, 458.602009],
+[0.6, 479.269423],
+[0.7, 498.307420],
+[0.8, 515.561806],
+[0.9, 530.895627],
+[0.1, 366.652262],
+[0.2, 394.626391],
+[0.3, 423.141291],
+[0.4, 452.080270],
+[0.5, 481.267384],
+[0.6, 510.632945],
+[0.7, 539.919061],
+[0.8, 569.007119],
+[0.9, 597.641935],
+[0.1, 366.086434],
+[0.2, 390.501510],
+[0.3, 413.009110],
+[0.4, 433.336219],
+[0.5, 451.265024],
+[0.6, 466.651877],
+[0.7, 479.295809],
+[0.8, 489.102669],
+[0.9, 495.953952], ]
+,
+                markPoint: {
+                    data: [{
+                        type: 'max',
+                        name: 'Max'
+                    }, {
+                        type: 'min',
+                        name: 'Min'
+                    }]
+                },
+                markLine: {
+                    data: [{
+                        type: 'average',
+                        name: 'Mean'
+                    }]
+                }
+            }, {
+                name: '중립형',
+                type: 'scatter',
+                tooltip: {
+                    trigger: 'item',
+                    formatter: function (params) {
+                        if (params.value.length > 1) {
+                            return params.seriesName + ' :<br/>' + params.value[0] +  params.value[1] + '% ';
+                        } else {
+                            return params.seriesName + ' :<br/>' + params.name + ' : ' + params.value + '% ';
+                        }
+                    }
+                },
+                data: [[0.1, 264.986306],
+[0.2, 248.547235],
+[0.3, 234.199686],
+[0.4, 221.701845],
+[0.5, 210.824378],
+[0.6, 201.370695],
+[0.7, 193.222388],
+[0.8, 186.286080],
+[0.9, 180.444650],
+[0.1, 249.773699],
+[0.2, 226.034708],
+[0.3, 209.420444],
+[0.4, 197.616087],
+[0.5, 189.088062],
+[0.6, 182.825847],
+[0.7, 178.093079],
+[0.8, 174.387787],
+[0.9, 171.361705],
+[0.1, 256.660294],
+[0.2, 238.678328],
+[0.3, 225.683052],
+[0.4, 215.552778],
+[0.5, 207.044189],
+[0.6, 199.446971],
+[0.7, 192.336414],
+[0.8, 185.449466],
+[0.9, 178.674702],
+[0.1, 241.266199],
+[0.2, 217.136962],
+[0.3, 201.251013],
+[0.4, 189.795820],
+[0.5, 181.095153],
+[0.6, 174.333122],
+[0.7, 169.031139],
+[0.8, 164.885757],
+[0.9, 161.687466],
+[0.1, 248.482624],
+[0.2, 225.534178],
+[0.3, 209.214453],
+[0.4, 196.873627],
+[0.5, 187.145790],
+[0.6, 179.333714],
+[0.7, 173.106505],
+[0.8, 168.268222],
+[0.9, 164.726226],
+[0.1, 276.465197],
+[0.2, 270.069285],
+[0.3, 265.540806],
+[0.4, 262.156881],
+[0.5, 259.534872],
+[0.6, 257.490421],
+[0.7, 255.968750],
+[0.8, 254.977348],
+[0.9, 254.485529],
+[0.1, 279.492243],
+[0.2, 276.679452],
+[0.3, 275.535117],
+[0.4, 275.144837],
+[0.5, 274.904180],
+[0.6, 274.596044],
+[0.7, 274.156877],
+[0.8, 273.687026],
+[0.9, 273.367610],
+[0.1, 265.879223],
+[0.2, 250.267116],
+[0.3, 236.891609],
+[0.4, 225.630455],
+[0.5, 216.247073],
+[0.6, 208.534911],
+[0.7, 202.336994],
+[0.8, 197.497324],
+[0.9, 193.905361],
+[0.1, 270.291919],
+[0.2, 257.725220],
+[0.3, 246.490924],
+[0.4, 235.853858],
+[0.5, 225.635104],
+[0.6, 215.895643],
+[0.7, 206.775449],
+[0.8, 198.437453],
+[0.9, 191.022472],
+[0.1, 255.112493],
+[0.2, 231.817803],
+[0.3, 213.961270],
+[0.4, 200.020164],
+[0.5, 188.982134],
+[0.6, 180.214293],
+[0.7, 173.242984],
+[0.8, 167.681222],
+[0.9, 163.291623],
+[0.1, 266.870965],
+[0.2, 253.064289],
+[0.3, 242.322493],
+[0.4, 233.228971],
+[0.5, 225.060360],
+[0.6, 217.526903],
+[0.7, 210.439246],
+[0.8, 203.702641],
+[0.9, 197.213722],
+[0.1, 269.298946],
+[0.2, 258.939425],
+[0.3, 252.307841],
+[0.4, 247.541280],
+[0.5, 243.657571],
+[0.6, 240.189658],
+[0.7, 237.000003],
+[0.8, 234.110910],
+[0.9, 231.700472],
+[0.1, 288.432565],
+[0.2, 290.658941],
+[0.3, 293.242675],
+[0.4, 295.866272],
+[0.5, 298.282900],
+[0.6, 300.280565],
+[0.7, 301.694002],
+[0.8, 302.398469],
+[0.9, 302.309914],
+[0.1, 292.962419],
+[0.2, 297.048966],
+[0.3, 299.708646],
+[0.4, 301.147091],
+[0.5, 301.692735],
+[0.6, 301.564841],
+[0.7, 301.057493],
+[0.8, 300.319374],
+[0.9, 299.649945],
+[0.1, 283.368041],
+[0.2, 280.125570],
+[0.3, 277.412869],
+[0.4, 274.626350],
+[0.5, 271.342849],
+[0.6, 267.289206],
+[0.7, 262.360597],
+[0.8, 256.487976],
+[0.9, 249.678940],
+[0.1, 279.282317],
+[0.2, 269.443854],
+[0.3, 260.918196],
+[0.4, 253.853206],
+[0.5, 248.115721],
+[0.6, 243.404861],
+[0.7, 239.444594],
+[0.8, 236.024809],
+[0.9, 233.035528],
+[0.1, 282.815382],
+[0.2, 276.821089],
+[0.3, 270.115853],
+[0.4, 262.712917],
+[0.5, 254.689217],
+[0.6, 246.199225],
+[0.7, 237.323980],
+[0.8, 228.159337],
+[0.9, 218.835693],
+[0.1, 296.700019],
+[0.2, 301.956345],
+[0.3, 304.168816],
+[0.4, 303.022540],
+[0.5, 298.533741],
+[0.6, 290.955020],
+[0.7, 280.703403],
+[0.8, 268.280633],
+[0.9, 254.288416],
+[0.1, 295.714977],
+[0.2, 302.562798],
+[0.3, 309.606270],
+[0.4, 316.196188],
+[0.5, 321.685652],
+[0.6, 325.616258],
+[0.7, 327.614847],
+[0.8, 327.501505],
+[0.9, 325.200205],
+[0.1, 300.631451],
+[0.2, 311.405865],
+[0.3, 321.967527],
+[0.4, 332.338670],
+[0.5, 342.488474],
+[0.6, 352.409383],
+[0.7, 362.030346],
+[0.8, 371.393973],
+[0.9, 380.390346],
+[0.1, 305.417968],
+[0.2, 319.816426],
+[0.3, 333.385471],
+[0.4, 346.170101],
+[0.5, 358.149755],
+[0.6, 369.371058],
+[0.7, 379.912734],
+[0.8, 389.847741],
+[0.9, 399.258864], ]
+
+,
+                markPoint: {
+                    data: [{
+                        type: 'max',
+                        name: 'Max'
+                    }, {
+                        type: 'min',
+                        name: 'Min'
+                    }]
+                },
+                markLine: {
+                    data: [{
+                        type: 'average',
+                        name: 'Mean'
+                    }]
+                }
+            },{
+                name: '방어형',
+                type: 'scatter',
+                tooltip: {
+                    trigger: 'item',
+                    formatter: function (params) {
+                        if (params.value.length > 1) {
+                            return params.seriesName + ' :<br/>' + params.value[0] +  params.value[1] + '% ';
+                        } else {
+                            return params.seriesName + ' :<br/>' + params.name + ' : ' + params.value + '% ';
+                        }
+                    }
+                },
+                data: [[0.1, 239.121542],
+[0.2, 224.776064],
+[0.3, 212.803047],
+[0.4, 202.627977],
+[0.5, 193.812234],
+[0.6, 186.036180],
+[0.7, 179.062824],
+[0.8, 172.723911],
+[0.9, 166.887893],
+[0.1, 230.715238],
+[0.2, 214.692860],
+[0.3, 203.383701],
+[0.4, 194.868135],
+[0.5, 188.032109],
+[0.6, 182.212662],
+[0.7, 176.997609],
+[0.8, 172.214400],
+[0.9, 167.740597],
+[0.1, 233.901974],
+[0.2, 221.221815],
+[0.3, 211.856271],
+[0.4, 204.116181],
+[0.5, 197.275612],
+[0.6, 190.991803],
+[0.7, 185.081195],
+[0.8, 179.480740],
+[0.9, 174.042830],
+[0.1, 232.150919],
+[0.2, 222.565350],
+[0.3, 214.040240],
+[0.4, 205.976015],
+[0.5, 198.458122],
+[0.6, 191.601793],
+[0.7, 185.382564],
+[0.8, 179.752373],
+[0.9, 174.616587],
+[0.1, 226.798282],
+[0.2, 214.705397],
+[0.3, 205.474353],
+[0.4, 197.695779],
+[0.5, 191.040892],
+[0.6, 185.304155],
+[0.7, 180.258694],
+[0.8, 175.653641],
+[0.9, 171.279515],
+[0.1, 221.489991],
+[0.2, 204.688904],
+[0.3, 192.685233],
+[0.4, 183.234594],
+[0.5, 175.533756],
+[0.6, 169.234999],
+[0.7, 164.219894],
+[0.8, 160.325036],
+[0.9, 157.411391],
+[0.1, 244.370839],
+[0.2, 237.603666],
+[0.3, 231.218393],
+[0.4, 225.513933],
+[0.5, 220.447834],
+[0.6, 215.917787],
+[0.7, 211.796459],
+[0.8, 208.113489],
+[0.9, 204.875935],
+[0.1, 233.082719],
+[0.2, 219.854355],
+[0.3, 209.159730],
+[0.4, 200.179645],
+[0.5, 192.303698],
+[0.6, 185.178562],
+[0.7, 178.632823],
+[0.8, 172.538435],
+[0.9, 166.905401],
+[0.1, 229.129729],
+[0.2, 214.637063],
+[0.3, 203.984563],
+[0.4, 195.926849],
+[0.5, 189.652841],
+[0.6, 184.633375],
+[0.7, 180.498292],
+[0.8, 176.965332],
+[0.9, 173.865035],
+[0.1, 230.180769],
+[0.2, 216.617137],
+[0.3, 205.860692],
+[0.4, 196.750035],
+[0.5, 188.909594],
+[0.6, 182.182753],
+[0.7, 176.508802],
+[0.8, 171.828002],
+[0.9, 168.072557],
+[0.1, 229.606681],
+[0.2, 213.155252],
+[0.3, 199.925371],
+[0.4, 189.082902],
+[0.5, 180.111242],
+[0.6, 172.616904],
+[0.7, 166.386888],
+[0.8, 161.203158],
+[0.9, 156.954192],
+[0.1, 227.788460],
+[0.2, 211.070054],
+[0.3, 198.049728],
+[0.4, 187.486205],
+[0.5, 178.733430],
+[0.6, 171.346136],
+[0.7, 165.067492],
+[0.8, 159.661832],
+[0.9, 154.961912],
+[0.1, 237.139967],
+[0.2, 230.563473],
+[0.3, 226.457064],
+[0.4, 223.383399],
+[0.5, 220.661553],
+[0.6, 218.000391],
+[0.7, 215.308372],
+[0.8, 212.602886],
+[0.9, 209.915422],
+[0.1, 241.848025],
+[0.2, 237.196395],
+[0.3, 235.725243],
+[0.4, 236.220099],
+[0.5, 237.848983],
+[0.6, 240.131440],
+[0.7, 242.695925],
+[0.8, 245.320646],
+[0.9, 247.923599],
+[0.1, 235.467131],
+[0.2, 227.439203],
+[0.3, 222.579732],
+[0.4, 219.285570],
+[0.5, 216.761276],
+[0.6, 214.633342],
+[0.7, 212.769675],
+[0.8, 211.172197],
+[0.9, 209.777815],
+[0.1, 241.609152],
+[0.2, 235.427969],
+[0.3, 230.555441],
+[0.4, 226.576515],
+[0.5, 223.157088],
+[0.6, 220.188706],
+[0.7, 217.541548],
+[0.8, 215.233096],
+[0.9, 213.231840],
+[0.1, 248.891499],
+[0.2, 244.277317],
+[0.3, 237.528511],
+[0.4, 229.953151],
+[0.5, 222.319232],
+[0.6, 215.043807],
+[0.7, 208.315032],
+[0.8, 202.121987],
+[0.9, 196.347702],
+[0.1, 235.353642],
+[0.2, 223.863563],
+[0.3, 214.365697],
+[0.4, 206.387572],
+[0.5, 199.522847],
+[0.6, 193.389030],
+[0.7, 187.779835],
+[0.8, 182.506754],
+[0.9, 177.407415],
+[0.1, 240.783277],
+[0.2, 234.753829],
+[0.3, 229.874098],
+[0.4, 225.070304],
+[0.5, 219.769976],
+[0.6, 213.816907],
+[0.7, 207.214635],
+[0.8, 200.084945],
+[0.9, 192.615927],
+[0.1, 249.326961],
+[0.2, 247.292512],
+[0.3, 246.145857],
+[0.4, 245.926630],
+[0.5, 246.628624],
+[0.6, 248.301998],
+[0.7, 250.931973],
+[0.8, 254.550909],
+[0.9, 259.173883],
+[0.1, 253.677521],
+[0.2, 256.011979],
+[0.3, 257.658686],
+[0.4, 258.645459],
+[0.5, 259.001733],
+[0.6, 258.795883],
+[0.7, 258.089430],
+[0.8, 256.911841],
+[0.9, 255.320074], ]
+
+,
+                markPoint: {
+                    data: [{
+                        type: 'max',
+                        name: 'Max'
+                    }, {
+                        type: 'min',
+                        name: 'Min'
+                    }]
+                },
+                markLine: {
+                    data: [{
+                        type: 'average',
+                        name: 'Mean'
+                    }]
+                }
+            }]
+        });
+
+    }
+
+    //echart Bar Horizontal
+
+    if ($('#echart_bar_horizontal').length) {
+
+        var echartBar = echarts.init(document.getElementById('echart_bar_horizontal'), theme);
+
+        echartBar.setOption({
+            title: {
+                text: 'Bar Graph',
+                subtext: 'Graph subtitle'
+            },
+            tooltip: {
+                trigger: 'axis'
+            },
+            legend: {
+                x: 100,
+                data: ['2015', '2016']
+            },
+            toolbox: {
+                show: true,
+                feature: {
+                    saveAsImage: {
+                        show: true,
+                        title: "Save Image"
+                    }
+                }
+            },
+            calculable: true,
+            xAxis: [{
+                type: 'value',
+                boundaryGap: [0, 0.01]
+            }],
+            yAxis: [{
+                type: 'category',
+                data: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
+            }],
+            series: [{
+                name: '2015',
+                type: 'bar',
+                data: [18203, 23489, 29034, 104970, 131744, 630230]
+            }, {
+                name: '2016',
+                type: 'bar',
+                data: [19325, 23438, 31000, 121594, 134141, 681807]
+            }]
+        });
+
+    }
+
+    //echart Pie Collapse
+
+    if ($('#echart_pie2').length) {
+
+        var echartPieCollapse = echarts.init(document.getElementById('echart_pie2'), theme);
+
+        echartPieCollapse.setOption({
+            tooltip: {
+                trigger: 'item',
+                formatter: "{a} <br/>{b} : {c} ({d}%)"
+            },
+            legend: {
+                x: 'center',
+                y: 'bottom',
+                data: ['rose1', 'rose2', 'rose3', 'rose4', 'rose5', 'rose6']
+            },
+            toolbox: {
+                show: true,
+                feature: {
+                    magicType: {
+                        show: true,
+                        type: ['pie', 'funnel']
+                    },
+                    restore: {
+                        show: true,
+                        title: "Restore"
+                    },
+                    saveAsImage: {
+                        show: true,
+                        title: "Save Image"
+                    }
+                }
+            },
+            calculable: true,
+            series: [{
+                name: 'Area Mode',
+                type: 'pie',
+                radius: [25, 90],
+                center: ['50%', 170],
+                roseType: 'area',
+                x: '50%',
+                max: 40,
+                sort: 'ascending',
+                data: [{
+                    value: 10,
+                    name: 'rose1'
+                }, {
+                    value: 5,
+                    name: 'rose2'
+                }, {
+                    value: 15,
+                    name: 'rose3'
+                }, {
+                    value: 25,
+                    name: 'rose4'
+                }, {
+                    value: 20,
+                    name: 'rose5'
+                }, {
+                    value: 35,
+                    name: 'rose6'
+                }]
+            }]
+        });
+
+    }
+
+    //-----------------------------------------------------------------------------------------------------------------------------
+    //echart Donut
+    //-----------------------------------------------------------------------------------------------------------------------------
+    if ($('#echart_donut').length) {
+        var echartDonut = echarts.init(document.getElementById('echart_donut'), theme);
+        echartDonut.setOption({
+            tooltip: {
+                trigger: 'item',
+                formatter: "{a} <br/>{b} : {c} ({d}%)"
+            },
+            calculable: true,
+            legend: {
+                x: 'center',
+                y: 'bottom',
+                data: ['독일', '홍콩', '일본', '프랑스', 'KOSPI', 'S&P500', 'NASDAQ']
+            },
+            toolbox: {
+                show: true,
+                feature: {
+                    magicType: {
+                        show: true,
+                        type: ['pie', 'funnel'],
+                        option: {
+                            funnel: {
+                                x: '25%',
+                                width: '50%',
+                                funnelAlign: 'center',
+                                max: 1548
+                            }
+                        }
+                    },
+                    restore: {
+                        show: true,
+                        title: "Restore"
+                    },
+                    saveAsImage: {
+                        show: true,
+                        title: "Save Image"
+                    }
+                }
+            },
+            series: [{
+                name: 'Access to the resource',
+                type: 'pie',
+                radius: ['35%', '55%'],
+                itemStyle: {
+                    normal: {
+                        label: {
+                            show: true
+                        },
+                        labelLine: {
+                            show: true
+                        }
+                    },
+                    emphasis: {
+                        label: {
+                            show: true,
+                            position: 'center',
+                            textStyle: {
+                                fontSize: '14',
+                                fontWeight: 'normal'
+                            }
+                        }
+                    }
+                },
+                data: [{
+                    value: 2.5,
+                    name: '독일'
+                }, {
+                    value: 2.5,
+                    name: '홍콩'
+                }, {
+                    value: 3.75,
+                    name: '일본'
+                }, {
+                    value: 3.75,
+                    name: '프랑스'
+                }, {
+                    value: 25,
+                    name: 'KOSPI'
+                 }, {
+                    value: 20,
+                    name: 'S&P500'
+                }, {
+                    value: 42.5,
+                    name: 'NASDAQ'
+                },]
+            }]
+        });
+
+    }
+    //--------------------------------------
+
+}
+
+
+$(document).ready(function () {
+
+    init_sparklines();
+    init_sidebar();
+    init_wysiwyg();
+    init_InputMask();
+    init_JQVmap();
+    init_cropper();
+    init_knob();
+    init_IonRangeSlider();
+    init_ColorPicker();
+    init_TagsInput();
+    init_parsley();
+    init_daterangepicker();
+    init_daterangepicker_right();
+    init_daterangepicker_single_call();
+    init_daterangepicker_reservation();
+    init_SmartWizard();
+    init_EasyPieChart();
+    init_charts();
+    init_echarts();
+    init_morris_charts();
+    init_skycons();
+    init_select2();
+    init_validator();
+    init_DataTables();
+    init_chart_doughnut();
+    init_gauge();
+    init_PNotify();
+    init_starrr();
+    init_calendar();
+    init_compose();
+    init_CustomNotification();
+    init_autosize();
+    init_autocomplete();
+
+});
+
+
+
+
+function a(){
+bbb="1_1";
+ccc="kim2";
+ddd="kim3";
+location.href ="test1.htm?Bcode="+bbb+"&Ccode="+ccc;
+}
+
+
+</script>
+
+</body></html>
